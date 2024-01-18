@@ -2,12 +2,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
-
-
 
 public class Database : MonoBehaviour
 {
+    [SerializeField] private TextMeshProUGUI _questionContentText;
+
     string jsonString = @"[
     {
         'Id': '0',
@@ -25,22 +26,27 @@ public class Database : MonoBehaviour
     }
     ]";
 
+
+
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log(Application.persistentDataPath);
+
         List<EnglishWord> danhSachTuVung = JsonConvert.DeserializeObject<List<EnglishWord>>(jsonString);
-        Console.WriteLine(danhSachTuVung.Count);
+        //Console.WriteLine(danhSachTuVung.Count);
         // 2
 
-        EnglishWord word1 = danhSachTuVung[0];
+        EnglishWord word = danhSachTuVung[1];
+        _questionContentText.text = Application.persistentDataPath;
 
-        Debug.Log(word1.WordName + ": " + word1.VietDescription);
+        //Debug.Log(word.WordName + ": " + word.VietDescription);
         // Product 1
     }
 
     // Update is called once per frame
-    void Update()
+    /*void Update()
     {
         
-    }
+    }*/
 }
