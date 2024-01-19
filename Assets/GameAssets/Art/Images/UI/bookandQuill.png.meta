@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9a93e6b1c70f8b94698f2c4f40cdf745
+guid: 0083a607a68a3c9488f95638a6878d48
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1 2_0
+      name: bookandQuill_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 157
-        height: 209
+        x: 152
+        y: 190
+        width: 950
+        height: 874
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c29256e69d2a9240b5e25e1f6e572fb
-      internalID: 1984988080
+      spriteID: 71b471373a11dc848b8b9c73628fa009
+      internalID: -1471215178
       vertices: []
       indices: 
       edges: []
@@ -146,7 +146,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5bcc39afd2dc02a40a022c2a02b7a17f
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -154,7 +154,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      1 2_0: 1984988080
+      bookandQuill_0: -1471215178
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
