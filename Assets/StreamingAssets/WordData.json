@@ -1,0 +1,16 @@
+[
+  {
+    "Id": "0",
+    "WordName": "home",
+    "EnglishDescription": "place you stay at when you have money",
+    "VietMeaning": "ngôi nhà",
+    "VietDescription": "nơi bạn ở khi bạn không thất nghiệp"
+  },
+  {
+    "Id": "1",
+    "WordName": "computer",
+    "EnglishDescription": "electrical devices that has a physical keyboard, a mouse and a screen that you use for studying and gaming",
+    "VietMeaning": "máy tính",
+    "VietDescription": "thiết bị điện tử có chuột, bàn phím, màn hình, dùng để học tập, làm việc và chơi game."
+  }
+]
