@@ -23,19 +23,10 @@ public class BattleUIManager : MonoBehaviour
     public TextMeshProUGUI playerChat;
 
     //PlayerAnswerPanel
-    public TextMeshProUGUI answerBtn1;
-    public TextMeshProUGUI answerBtn2;
-    public TextMeshProUGUI answerBtn3;
-    public TextMeshProUGUI answerBtn4;
+    public List<TextMeshProUGUI> answerButtons;
 
-    public IEnumerator StartCombatDialog()
+    public void UpdateQuestionAndAnswer(EnglishWord wordToGuess)
     {
-        enemyChat.text = "E:let get started noob";
-        yield return new WaitForSeconds(1f);
-    }
-
-    public void UpdateQuestionAndAnswer()
-    {
-        //enemyChat.text = 
+        enemyChat.text = wordToGuess.WordName;
     }
 }

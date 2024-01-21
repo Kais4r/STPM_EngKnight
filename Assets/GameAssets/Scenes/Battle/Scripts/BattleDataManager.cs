@@ -9,10 +9,6 @@ using System.Xml;
 
 public class BattleDataManager : MonoBehaviour
 {
-    // This is where we pass in level database name
-    [SerializeField] private string databaseName;
-
-    private string streamingAssetdataPath;
     private string jsonString;
 
     public List<EnglishWord> WordsList { get; set; }
@@ -21,18 +17,11 @@ public class BattleDataManager : MonoBehaviour
     public EnglishWord WordToGuess {  get; set; }
     public List<EnglishWord> WrongAnswerWordsList { get; set; }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        streamingAssetdataPath = Application.streamingAssetsPath + "/Level/" + databaseName + ".json";
-        LoadData();
-    }
-
-    private void LoadData()
+    public void LoadData(string streamingAssetdataPath)
     {
         if (Application.platform == RuntimePlatform.Android)
         {
-            StartCoroutine(LoadDataAndroid());
+            StartCoroutine(LoadDataAndroid(streamingAssetdataPath));
         }
         else
         {
@@ -41,7 +30,7 @@ public class BattleDataManager : MonoBehaviour
         }
     }
 
-    private IEnumerator LoadDataAndroid()
+    private IEnumerator LoadDataAndroid(string streamingAssetdataPath)
     {
         // Create a UnityWebRequest to load the file
         UnityWebRequest www = UnityWebRequest.Get(streamingAssetdataPath);
@@ -64,7 +53,7 @@ public class BattleDataManager : MonoBehaviour
     }
 
     // Generating word to guess and 3 wrong answer words function
-    public void GenerateEnglishWord()
+    public void GenerateEnglishWordsList()
     {   
         if (WordsList.Count <= 5)
         {
@@ -88,6 +77,7 @@ public class BattleDataManager : MonoBehaviour
             {
                 if (GeneratedWordsList.Contains(randomWord) == false)
                 {
+                    //assign the correct word that player has to guess
                     WordToGuess = randomWord;
                     GeneratedWordsList.Add(randomWord);
                     WordsList.RemoveAt(randomIndex);
@@ -110,7 +100,6 @@ public class BattleDataManager : MonoBehaviour
             };
             for (int i = WrongAnswerWordsList.Count;i < 3;i++)
             {
-                Debug.Log("i = " + i);
                 while (randomWord == WordToGuess || WrongAnswerWordsList.Contains(randomWord))
                 {
                     randomIndex = Random.Range(0, WordsList.Count);
