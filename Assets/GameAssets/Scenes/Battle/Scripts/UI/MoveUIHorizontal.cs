@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BattleUIMoveHorizontal : MonoBehaviour
+public class MoveUIHorizontal : MonoBehaviour
 {
     [SerializeField] private GameObject _userInterfaceObject;
     private RectTransform _rectTransform;

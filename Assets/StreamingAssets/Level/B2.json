@@ -1,0 +1,310 @@
+[
+        {
+            "ID": 0,
+            "WordName": "Academic ",
+            "VietMeaning": "Học giả",
+            "EngSub": "A person who teaches and/or does research at a university or college",
+            "VietSub": "Người giảng dạy và/hoặc nghiên cứu ở trường đại học hoặc cao đẳng"
+        },
+        {
+            "ID": 1,
+            "WordName": "Attempt",
+            "VietMeaning": "Ráng làm",
+            "EngSub": "to make an effort or try to do something, especially something difficult",
+            "VietSub": "Nỗ lực hoặc cố gắng làm điều gì đó, đặc biệt là điều gì đó khó khăn"
+        },
+        {
+            "ID": 2,
+            "WordName": "Back",
+            "VietMeaning": "Ủng hộ",
+            "EngSub": "Back somebody/something to encourage somebody or give them help; to give financial support to somebody/something",
+            "VietSub": "Hỗ trợ ai đó/cái gì đó để khuyến khích ai đó hoặc giúp đỡ họ; hỗ trợ tài chính cho ai/cái gì"
+        },
+        {
+            "ID": 3,
+            "WordName": "But",
+            "VietMeaning": "Nhưng",
+            "EngSub": "Except; apart from",
+            "VietSub": "Ngoại trừ; ngoại trừ"
+        },
+        {
+            "ID": 4,
+            "WordName": "Calculate",
+            "VietMeaning": "Tính toán",
+            "EngSub": "To use numbers to find out a total number, amount, distance, etc.",
+            "VietSub": "Sử dụng các con số để tìm ra tổng số, số lượng, khoảng cách, v.v."
+        },
+        {
+            "ID": 5,
+            "WordName": "Curve",
+            "VietMeaning": "Làmg cong",
+            "EngSub": "To move or make something move in the shape of a curve; to be in the shape of a curve",
+            "VietSub": "Di chuyển hoặc làm cho vật gì đó chuyển động theo hình đường cong; có hình dạng của một đường cong"
+        },
+        {
+            "ID": 6,
+            "WordName": "Debate",
+            "VietMeaning": "Tranh luận",
+            "EngSub": "To discuss something, especially formally, before making a decision or finding a solution",
+            "VietSub": "Để thảo luận về một cái gì đó, đặc biệt là chính thức, trước khi đưa ra quyết định hoặc tìm giải pháp"
+        },
+        {
+            "ID": 7,
+            "WordName": "Dozen",
+            "VietMeaning": "Một tá",
+            "EngSub": "A group of twelve of the same thing",
+            "VietSub": "Một nhóm mười hai người giống nhau"
+        },
+        {
+            "ID": 8,
+            "WordName": "Edit",
+            "VietMeaning": "Biên tập",
+            "EngSub": "To prepare a piece of writing, a book, etc. To be published by correcting the mistakes, making improvements to it, etc.",
+            "VietSub": "Chuẩn bị một bài viết, một cuốn sách, v.v. Để xuất bản bằng cách sửa chữa những sai sót, cải tiến nó, v.v."
+        },
+        {
+            "ID": 9,
+            "WordName": "Extreme",
+            "VietMeaning": "Chỗ tột cùng",
+            "EngSub": "A feeling, situation, way of behaving, etc. That is as different as possible from another or is opposite to it",
+            "VietSub": "Một cảm giác, tình huống, cách cư xử, v.v. Càng khác biệt càng tốt với người khác hoặc đối lập với nó"
+        },
+        {
+            "ID": 10,
+            "WordName": "Facility",
+            "VietMeaning": "Cơ sở",
+            "EngSub": "Facilities [plural] buildings, services, equipment, etc. That are provided for a particular purpose",
+            "VietSub": "Ơ sở vật chất [số nhiều] tòa nhà, dịch vụ, thiết bị, v.v. Được cung cấp cho một mục đích cụ thể"
+        },
+        {
+            "ID": 11,
+            "WordName": "Furthermore",
+            "VietMeaning": "Hơn nữa",
+            "EngSub": "in addition to what has just been stated. Furthermore is used especially to add a point to an argument",
+            "VietSub": "Ngoài những gì vừa được nêu. Hơn nữa được sử dụng đặc biệt để thêm một điểm vào một đối số"
+        },
+        {
+            "ID": 12,
+            "WordName": "Gain",
+            "VietMeaning": "Gia tăng",
+            "EngSub": "An increase in the amount of something, especially in wealth or weight",
+            "VietSub": "Sự gia tăng số lượng của một cái gì đó, đặc biệt là về sự giàu có hoặc trọng lượng"
+        },
+        {
+            "ID": 13,
+            "WordName": "Guarantee",
+            "VietMeaning": "Đứng bảo lãnh",
+            "EngSub": "To promise to do something; to promise something will happen",
+            "VietSub": "Hứa làm điều gì đó; hứa điều gì đó sẽ xảy raư"
+        },
+        {
+            "ID": 14,
+            "WordName": "Handle",
+            "VietMeaning": "Tay nắm cửa",
+            "EngSub": "The part of a door, window, etc. That you use to open it",
+            "VietSub": "Phần của cửa ra vào, cửa sổ, v.v. Mà bạn dùng để mở nó"
+        },
+        {
+            "ID": 15,
+            "WordName": "Hurt",
+            "VietMeaning": "Làm người khác bị thương",
+            "EngSub": "A feeling of unhappiness because somebody has been unkind or unfair to you",
+            "VietSub": "Cảm giác bất hạnh vì ai đó đối xử không tốt hoặc không công bằng với bạn"
+        },
+        {
+            "ID": 16,
+            "WordName": "Ideal",
+            "VietMeaning": "Lý tưởng",
+            "EngSub": "An idea or standard that seems perfect, and worth trying to achieve or obtain",
+            "VietSub": "Một ý tưởng hoặc tiêu chuẩn có vẻ hoàn hảo và đáng để cố gắng đạt được hoặc đạt được"
+        },
+        {
+            "ID": 17,
+            "WordName": "Issue",
+            "VietMeaning": "Vấn đề",
+            "EngSub": "To make something known formally",
+            "VietSub": "Làm cho cái gì đó được biết đến một cách chính thức"
+        },
+        {
+            "ID": 18,
+            "WordName": "Joy",
+            "VietMeaning": "Vui sướng",
+            "EngSub": "A feeling of great happiness",
+            "VietSub": "Một cảm giác hạnh phúc tuyệt vời"
+        },
+        {
+            "ID": 19,
+            "WordName": "Justify",
+            "VietMeaning": "Bào chữa",
+            "EngSub": "To show that somebody/something is right or reasonable",
+            "VietSub": "Để chỉ ra rằng ai đó/cái gì đó là đúng hoặc hợp lý"
+        },
+        {
+            "ID": 20,
+            "WordName": "Landscape",
+            "VietMeaning": "Phong cảnh",
+            "EngSub": "Everything you can see when you look across a large area of land, especially in the country",
+            "VietSub": "Mọi thứ bạn có thể thấy khi nhìn qua một vùng đất rộng lớn, đặc biệt là ở vùng nông thôn"
+        },
+        {
+            "ID": 21,
+            "WordName": "Lung",
+            "VietMeaning": "Phổi",
+            "EngSub": "Either of the two organs in the chest that you use for breathing",
+            "VietSub": "Một trong hai cơ quan ở ngực mà bạn sử dụng để thở"
+        },
+        {
+            "ID": 22,
+            "WordName": "Make",
+            "VietMeaning": "Chế tạo",
+            "EngSub": "The name or type of a machine, piece of equipment, etc. That is made by a particular company",
+            "VietSub": "Tên hoặc loại máy móc, thiết bị, v.v. Được sản xuất bởi một công ty cụ thể"
+        },
+        {
+            "ID": 23,
+            "WordName": "Mysterious",
+            "VietMeaning": "Bí ẩn",
+            "EngSub": "Difficult to understand or explain; strange",
+            "VietSub": "Khó hiểu hoặc giải thích; lạ lùng"
+        },
+        {
+            "ID": 24,
+            "WordName": "Narrow",
+            "VietMeaning": "Làm cho hẹp lại",
+            "EngSub": "To become or make something less wide",
+            "VietSub": "Trở thành hoặc làm cho cái gì đó ít rộng hơn"
+        },
+        {
+            "ID": 25,
+            "WordName": "Numerous ",
+            "VietMeaning": "Nhiều",
+            "EngSub": "Existing in large numbers",
+            "VietSub": "Hiện có với số lượng lớn"
+        },
+        {
+            "ID": 26,
+            "WordName": "Obey",
+            "VietMeaning": "Tuân theo",
+            "EngSub": "To do what you are told or expected to do",
+            "VietSub": "Làm những gì bạn được bảo hoặc dự kiến sẽ làm"
+        },
+        {
+            "ID": 27,
+            "WordName": "Overall",
+            "VietMeaning": "Tổng thể",
+            "EngSub": "Including everything or everyone; in total",
+            "VietSub": "Bao gồm mọi thứ hoặc mọi người; tổng cộng"
+        },
+        {
+            "ID": 28,
+            "WordName": "Panel",
+            "VietMeaning": "Bảng",
+            "EngSub": "A square or rectangular piece of wood, glass or metal that forms part of a larger surface such as a door or wall",
+            "VietSub": "Một miếng gỗ, kính hoặc kim loại hình vuông hoặc hình chữ nhật tạo thành một phần của bề mặt lớn hơn như cửa hoặc tường"
+        },
+        {
+            "ID": 29,
+            "WordName": "Pursue",
+            "VietMeaning": "Theo đuổi",
+            "EngSub": "Pursue something to do something or try to achieve something over a period of time",
+            "VietSub": "Theo đuổi cái gì đó để làm cái gì đó hoặc cố gắng đạt được cái gì đó trong một khoảng thời gian"
+        },
+        {
+            "ID": 30,
+            "WordName": "Range",
+            "VietMeaning": "Phạm vi",
+            "EngSub": "To vary between two particular amounts, sizes, etc., including others between them",
+            "VietSub": "Để thay đổi giữa hai số lượng cụ thể, kích cỡ, vv, bao gồm cả những thứ khác giữa chúng"
+        },
+        {
+            "ID": 31,
+            "WordName": "Rush",
+            "VietMeaning": "Vội vàng",
+            "EngSub": "To move or to do something with great speed, often too fast",
+            "VietSub": "Di chuyển hoặc làm điều gì đó với tốc độ lớn, thường là quá nhanh"
+        },
+        {
+            "ID": 32,
+            "WordName": "Sample",
+            "VietMeaning": "Thử",
+            "EngSub": "Sample something to try a small amount of a particular food to see what it is like; to experience something for a short time to see what it is like",
+            "VietSub": "Nếm thử thứ gì đó để thử một lượng nhỏ của một loại thực phẩm cụ thể để xem nó như thế nào; trải nghiệm cái gì đó trong một thời gian ngắn để xem nó như thế nào"
+        },
+        {
+            "ID": 33,
+            "WordName": "Sympathy",
+            "VietMeaning": "Sự đồng cảm",
+            "EngSub": "The feeling of being sorry for somebody; showing that you understand and care about somebody’s problems",
+            "VietSub": "Cảm giác có lỗi với ai đó; cho thấy rằng bạn hiểu và quan tâm đến vấn đề của ai đó"
+        },
+        {
+            "ID": 34,
+            "WordName": "Tale",
+            "VietMeaning": "Câu chuyện",
+            "EngSub": "A story created using the imagination, especially one that is full of action and adventure",
+            "VietSub": "Một câu chuyện được tạo ra bằng trí tưởng tượng, đặc biệt là một câu chuyện đầy hành động và phiêu lưu"
+        },
+        {
+            "ID": 35,
+            "WordName": "Tune",
+            "VietMeaning": "Âm điệu",
+            "EngSub": "A series of musical notes that are sung or played in a particular order to form a piece of music",
+            "VietSub": "Một loạt các nốt nhạc được hát hoặc chơi theo một thứ tự cụ thể để tạo thành một bản nhạc"
+        },
+        {
+            "ID": 36,
+            "WordName": "Ultimately",
+            "VietMeaning": "Cuối cùng",
+            "EngSub": "In the end; finally",
+            "VietSub": "Đến cuối cùng; cuối cùng"
+        },
+        {
+            "ID": 37,
+            "WordName": "Urge",
+            "VietMeaning": "Thúc giục",
+            "EngSub": "To advise or try hard to persuade somebody to do something",
+            "VietSub": "Khuyên bảo hoặc cố gắng hết sức để thuyết phục ai đó làm điều gì đó"
+        },
+        {
+            "ID": 38,
+            "WordName": "Value ",
+            "VietMeaning": "Đánh giá",
+            "EngSub": "To think that somebody/something is important",
+            "VietSub": "Nghĩ rằng ai đó/cái gì đó quan trọng"
+        },
+        {
+            "ID": 39,
+            "WordName": "Volume",
+            "VietMeaning": "Thể tích",
+            "EngSub": "The amount of space that an object or a substance fills; the amount of space that a container has",
+            "VietSub": "Lượng không gian mà một vật thể hoặc một chất lấp đầy; lượng không gian mà một container có"
+        },
+        {
+            "ID": 40,
+            "WordName": "Way",
+            "VietMeaning": "Lối đi",
+            "EngSub": "A method, style or manner of doing something",
+            "VietSub": "Phương pháp, phong cách hoặc cách thức làm việc gì đó"
+        },
+        {
+            "ID": 41,
+            "WordName": "Wrong",
+            "VietMeaning": "Sai",
+            "EngSub": "Behaviour that is not honest or morally acceptable",
+            "VietSub": "Hành vi không trung thực hoặc không được chấp nhận về mặt đạo đức"
+        },
+        {
+            "ID": 42,
+            "WordName": "Yet",
+            "VietMeaning": "Tuy nhiên",
+            "EngSub": "Despite what has just been said",
+            "VietSub": "Bất chấp những gì vừa được nói"
+        },
+        {
+            "ID": 43,
+            "WordName": "Zone",
+            "VietMeaning": "Vùng",
+            "EngSub": "An area or a region with a particular feature or use",
+            "VietSub": "Một khu vực hoặc một khu vực có tính năng hoặc cách sử dụng cụ thể"
+        }
+]
