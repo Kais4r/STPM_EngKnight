@@ -38,7 +38,8 @@ public class BattleSceneManager : MonoBehaviour
 
     // Level Info
     private int remainingEnemiesNumber = 3;
-    private int[] _range;
+    private int[] _range; //Words range
+    public int hintLeft = 2;
 
     // Generate enemy and character
     private Character _player;

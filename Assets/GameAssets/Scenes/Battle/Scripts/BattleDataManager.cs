@@ -60,7 +60,6 @@ public class BattleDataManager : MonoBehaviour
     {
         List<EnglishWord> data = JsonConvert.DeserializeObject<List<EnglishWord>>(jsonString);
         WordsList = data.GetRange(range[0], range[1]);
-        Debug.Log(WordsList[0].EnglishDescription);
     }
 
     public void GenerateEnglishWordsList()
