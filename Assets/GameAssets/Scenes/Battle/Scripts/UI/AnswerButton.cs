@@ -28,16 +28,17 @@ public class AnswerButton : MonoBehaviour
     }
     public void SelectAnswer()
     {
-        if (_battleSceneManager.gameMode == GameMode.EngLishToViet)
+        /*if (_battleSceneManager.gameMode == GameMode.EngLishToViet)
         {
-            if (_battleSceneManager.battleState == BattleState.PlayerTurn)
-            {
-                playerText.text = "P:It is " + _answerText.text + " ";
-                _battleSceneManager.battleState = BattleState.SystemProcessPlayerTurnResult;
-                _result = CheckAnswer();
-                _battleSceneManager.ProcessPlayerQuizResult(_result);
-                // this is what happen after player select answer 
-            }
+            
+        }*/
+        if (_battleSceneManager.battleState == BattleState.PlayerTurn)
+        {
+            playerText.text = "P:It is " + _answerText.text + " ";
+            _battleSceneManager.battleState = BattleState.SystemProcessPlayerTurnResult;
+            _result = CheckAnswer();
+            _battleSceneManager.ProcessPlayerQuizResult(_result);
+            // this is what happen after player select answer 
         }
     }
 
@@ -67,7 +68,7 @@ public class AnswerButton : MonoBehaviour
             // right answer
             if (_answerText.text == correctEnglishWord)
             {
-                StartCoroutine(ShowAnswer(new Color32(77, 255, 0, 255), enemyText, "E:Correct."));
+                StartCoroutine(ShowAnswer(new Color32(77, 255, 0, 255), enemyText, "E:Chính xác."));
                 return true;
             }
             else

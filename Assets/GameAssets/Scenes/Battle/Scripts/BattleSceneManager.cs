@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Unity.Mathematics;
@@ -27,7 +27,7 @@ public class BattleSceneManager : MonoBehaviour
 {
     private GameManagerSingleton _gameManagerSingleton;
     public BattleState battleState = BattleState.BattleStart;
-    public GameMode gameMode = GameMode.EngLishToViet;
+    public GameMode gameMode = GameMode.VietToEnglish;
 
     // This is where we pass in level database name
     private string databaseName = "A1";
@@ -101,8 +101,6 @@ public class BattleSceneManager : MonoBehaviour
         // Tra loi dung
         if (result == true)
         {
-
-
             StartCoroutine(PlayerAttack());
         }
         // Tra loi sai
@@ -203,8 +201,12 @@ public class BattleSceneManager : MonoBehaviour
             if(gameMode == GameMode.EngLishToViet)
             {
                 SetUpEnglishToVietQuizQuestion();
-                battleState = BattleState.PlayerTurn;
             }
+            else if(gameMode == GameMode.VietToEnglish)
+            {
+                SetUpVietToEnglishQuizQuestion();
+            }
+            battleState = BattleState.PlayerTurn;
         }
     }
 
@@ -233,7 +235,7 @@ public class BattleSceneManager : MonoBehaviour
     private void SetUpVietToEnglishQuizQuestion()
     {
         _battleDataManager.GenerateEnglishWordsList();
-        _battleUIManager.enemyChat.text = "E:Tell me what is " + _battleDataManager.WordToGuess.VietMeaning;
+        _battleUIManager.enemyChat.text = "E:Từ này là gì: " + _battleDataManager.WordToGuess.VietMeaning;
         _battleUIManager.playerChat.text = "P:Hmm...";
 
         List<int> arr = new() { 0, 1, 2, 3 };
