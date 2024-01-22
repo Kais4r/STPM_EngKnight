@@ -33,7 +33,8 @@ public class BattleSceneManager : MonoBehaviour
     public BattleUIManager _battleUIManager;
 
     // Level Info
-    private int remainingEnemiesNumber = 1;
+    private int remainingEnemiesNumber = 9;
+    private int[] _range;
 
     // Generate enemy and character
     private Character _player;
@@ -53,7 +54,8 @@ public class BattleSceneManager : MonoBehaviour
         if (battleState == BattleState.BattleStart)
         {
             //set up database here:
-            _battleDataManager.LoadData(streamingAssetdataPath);
+            _range = new int[] { 0, 20 };
+            _battleDataManager.LoadData(streamingAssetdataPath,_range);
             StartCoroutine(SetUpBattle());
         }
         if (battleState == BattleState.EnemyTurn)
@@ -175,6 +177,7 @@ public class BattleSceneManager : MonoBehaviour
             else
             {
                 _battleUIManager.endGamePanel.SetActive(true);
+                _battleUIManager.endGameResultText.text = "Victory, you slain all monster!";
             }
         }
         else
@@ -196,6 +199,7 @@ public class BattleSceneManager : MonoBehaviour
         if (_player.HP <= 0)
         {
             _battleUIManager.endGamePanel.SetActive(true);
+            _battleUIManager.endGameResultText.text = "Defeated, The monster are scary";
         }
         else
         {

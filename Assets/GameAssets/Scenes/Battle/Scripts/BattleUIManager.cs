@@ -10,7 +10,6 @@ public class BattleUIManager : MonoBehaviour
     // game manager need to pass in data here
     [SerializeField] private BattleSceneManager _battleSceneManager;
 
-
     //Uppercontrol panel
     public TextMeshProUGUI scoreText;
 
@@ -34,6 +33,7 @@ public class BattleUIManager : MonoBehaviour
 
     // GameEndPanel
     public GameObject endGamePanel;
+    public TextMeshProUGUI endGameResultText;
 
     public void UpdateQuestionAndAnswer(EnglishWord wordToGuess)
     {

@@ -6,9 +6,12 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
 using System.Xml;
+using System.Runtime.CompilerServices;
+using System;
 
 public class BattleDataManager : MonoBehaviour
 {
+    [SerializeField] private BattleSceneManager _battleSceneManager;
     private string jsonString;
 
     public List<EnglishWord> WordsList { get; set; }
@@ -17,20 +20,20 @@ public class BattleDataManager : MonoBehaviour
     public EnglishWord WordToGuess {  get; set; }
     public List<EnglishWord> WrongAnswerWordsList { get; set; }
 
-    public void LoadData(string streamingAssetdataPath)
+    public void LoadData(string streamingAssetdataPath, int[] range)
     {
         if (Application.platform == RuntimePlatform.Android)
         {
-            StartCoroutine(LoadDataAndroid(streamingAssetdataPath));
+            StartCoroutine(LoadDataAndroid(streamingAssetdataPath, range));
         }
         else
         {
             jsonString = File.ReadAllText(streamingAssetdataPath);
-            ProcessData();
+            ProcessData(range);
         }
     }
 
-    private IEnumerator LoadDataAndroid(string streamingAssetdataPath)
+    private IEnumerator LoadDataAndroid(string streamingAssetdataPath, int[] range)
     {
         // Create a UnityWebRequest to load the file
         UnityWebRequest www = UnityWebRequest.Get(streamingAssetdataPath);
@@ -43,26 +46,27 @@ public class BattleDataManager : MonoBehaviour
         {
             // Get the downloaded text
             jsonString = www.downloadHandler.text;
-            ProcessData();
+            ProcessData(range);
         }
     }
 
-    private void ProcessData()
+    private void ProcessData(int[] range)
     {
-        WordsList = JsonConvert.DeserializeObject<List<EnglishWord>>(jsonString);
+        List<EnglishWord> data = JsonConvert.DeserializeObject<List<EnglishWord>>(jsonString);
+        WordsList = data.GetRange(range[0], range[1]);
     }
 
-    // Generating word to guess and 3 wrong answer words function
     public void GenerateEnglishWordsList()
     {   
-        if (WordsList.Count <= 5)
+        if (WordsList.Count <= 0)
         {
-            return;
+            _battleSceneManager._battleUIManager.endGamePanel.SetActive(true);
+            _battleSceneManager._battleUIManager.endGameResultText.text = "Defeated, out of words to guess, you wrong too many time";
         }
         else
         {
             // Generate Question Word and Correct Answer
-            int randomIndex = Random.Range(0, WordsList.Count);
+            int randomIndex = UnityEngine.Random.Range(0, WordsList.Count);
             EnglishWord randomWord = WordsList[randomIndex];
             if(GeneratedWordsList == null)
             {
@@ -86,19 +90,19 @@ public class BattleDataManager : MonoBehaviour
                 {
                     while (GeneratedWordsList.Contains(randomWord) == true)
                     {
-                        randomIndex = Random.Range(0, WordsList.Count);
+                        randomIndex = UnityEngine.Random.Range(0, WordsList.Count);
                         randomWord = WordsList[randomIndex];
                     }
                 }
             }
 
-            randomIndex = Random.Range(0, WordsList.Count);
+            randomIndex = UnityEngine.Random.Range(0, WordsList.Count);
             randomWord = WordsList[randomIndex];
             if (WrongAnswerWordsList == null)
             {
                 while(randomWord == WordToGuess)
                 {
-                    randomIndex = Random.Range(0, WordsList.Count);
+                    randomIndex = UnityEngine.Random.Range(0, WordsList.Count);
                     randomWord = WordsList[randomIndex];
                 }
                 WrongAnswerWordsList = new List<EnglishWord> {  randomWord };
@@ -107,7 +111,7 @@ public class BattleDataManager : MonoBehaviour
             {
                 while (randomWord == WordToGuess || WrongAnswerWordsList.Contains(randomWord))
                 {
-                    randomIndex = Random.Range(0, WordsList.Count);
+                    randomIndex = UnityEngine.Random.Range(0, WordsList.Count);
                     randomWord = WordsList[randomIndex];
                 }
                 WrongAnswerWordsList.Add(randomWord);
