@@ -7,6 +7,7 @@ public class GameManagerSingleton : MonoBehaviour
     public static GameManagerSingleton instance;
 
     public List<Character> CharacterList { get; set; }
+    public string cefrLevel;
 
     public void Awake()
     {

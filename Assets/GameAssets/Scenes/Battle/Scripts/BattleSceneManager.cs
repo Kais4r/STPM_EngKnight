@@ -22,11 +22,12 @@ public enum GameMode
 
 public class BattleSceneManager : MonoBehaviour
 {
+    private GameManagerSingleton _gameManagerSingleton;
     public BattleState battleState = BattleState.BattleStart;
     public GameMode gameMode = GameMode.EngLishToViet;
 
     // This is where we pass in level database name
-    [SerializeField] private string databaseName;
+    private string databaseName = "A1";
     public BattleDataManager _battleDataManager;
     private string streamingAssetdataPath;
 
@@ -46,14 +47,23 @@ public class BattleSceneManager : MonoBehaviour
 
     private void Awake()
     {
-        streamingAssetdataPath = Application.streamingAssetsPath + "/Level/" + databaseName + ".json";
+        // CEFR level database
+        _gameManagerSingleton = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerSingleton>();
+        if (_gameManagerSingleton != null )
+        {
+            streamingAssetdataPath = Application.streamingAssetsPath + "/Level/" + _gameManagerSingleton.cefrLevel + ".json";
+        }
+        else
+        {
+            streamingAssetdataPath = Application.streamingAssetsPath + "/Level/" + databaseName + ".json";
+        }
     }
     private void Update()
     {
         if (battleState == BattleState.BattleStart)
         {
             //set up database here:
-            _range = new int[] { 0, 20 };
+            _range = new int[] { 0, 40 };
             _battleDataManager.LoadData(streamingAssetdataPath,_range);
             StartCoroutine(SetUpBattle());
         }
