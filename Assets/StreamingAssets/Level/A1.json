@@ -171,8 +171,8 @@
             "ID": 24,
             "WordName": "Magazine",
             "VietMeaning": "Tạp chí",
-            "EnglishDescription": "A type of large thin book with a paper cover that you can buy every week or month, containing articles, photographs, etc., often on a particular topic; a similar collection of articles, etc. That appears ,regularly online",
-            "VietDescription": "Một loại sách mỏng, khổ lớn có bìa giấy mà bạn có thể mua hàng tuần hoặc hàng tháng, chứa các bài báo, ảnh, v.v., thường về một chủ đề cụ thể; một tập hợp các bài báo tương tự, v.v. Xuất hiện thường xuyên ,trên mạng"
+            "EnglishDescription": "A type of thin book with a paper cover that is published regularly and usually contains articles and photographs:",
+            "VietDescription": "Một loại sách mỏng có bìa giấy được xuất bản thường xuyên và thường chứa các bài viết và hình ảnh"
         },
         {
             "ID": 25,
@@ -283,15 +283,15 @@
             "ID": 40,
             "WordName": "Type",
             "VietMeaning": "Kiểu",
-            "EnglishDescription": "A class or group of people or things that share particular qualities or features and are part of a larger group; a kind or sort",
-            "VietDescription": "Một tầng lớp hoặc một nhóm người hoặc những thứ có chung những phẩm chất hoặc đặc điểm cụ thể và là một phần của một nhóm lớn hơn; một loại hoặc một loại"
+            "EnglishDescription": "A particular group of people or things that share similar characteristics and form a smaller division of a larger set",
+            "VietDescription": "Một nhóm người hoặc đồ vật cụ thể có chung đặc điểm và tạo thành một bộ phận nhỏ hơn của một tập hợp lớn hơn"
         },
         {
             "ID": 41,
             "WordName": "Umbrella",
             "VietMeaning": "Chiếc dù",
-            "EnglishDescription": "An object with a round folding frame of long, straight pieces of metal covered with material, that you use to protect yourself from the rain or from hot sun",
-            "VietDescription": "Một vật có khung gấp tròn bằng các miếng kim loại dài, thẳng được phủ bằng vật liệu mà bạn dùng để bảo vệ mình khỏi mưa hoặc nắng nóng"
+            "EnglishDescription": "A cover that protects from rain or sun, esp. waterproof material fitted on a folding frame with a handle at one end",
+            "VietDescription": "Một tấm che bảo vệ khỏi mưa hoặc nắng, đặc biệt. vật liệu chống thấm nước được lắp trên khung gấp có tay cầm ở một đầu"
         },
         {
             "ID": 42,

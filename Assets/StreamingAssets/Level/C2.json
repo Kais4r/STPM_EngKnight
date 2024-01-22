@@ -59,8 +59,8 @@
             "ID": 8,
             "WordName": "Ear",
             "VietMeaning": "Tai",
-            "EnglishDescription": "Either of the two organs, one on each side of the head, by which people or animals hear sounds, or the piece of skin and tissue outside the head connected to this organ",
-            "VietDescription": "Một trong hai cơ quan, mỗi cơ quan ở một bên đầu, nhờ đó con người hoặc động vật nghe được âm thanh, hoặc phần da và mô bên ngoài đầu nối với cơ quan này"
+            "EnglishDescription": "either of the organs on the sides of the head that you hear with",
+            "VietDescription": "một trong những cơ quan ở hai bên đầu mà bạn nghe thấy"
         },
         {
             "ID": 9,
@@ -241,8 +241,9 @@
             "ID": 34,
             "WordName": "Racist",
             "VietMeaning": "Phân biệt chủng tộc",
-            "EnglishDescription": "Someone who believes that their race makes them better, more intelligent, more moral, etc. Than people of other races and who does or says unfair or harmful things as a result",
-            "VietDescription": "Ai đó tin rằng chủng tộc của họ làm cho họ tốt hơn, thông minh hơn, đạo đức hơn, v.v. So với những người thuộc chủng tộc khác và kết quả là họ làm hoặc nói những điều không công bằng hoặc có hại"
+            
+            "EnglishDescription": "Is discrimination and prejudice against people based on their race or ethnicity",
+            "VietDescription": "Là sự phân biệt đối xử và thành kiến ​​đối với mọi người dựa trên chủng tộc hoặc sắc tộc của họ"
         },
         {
             "ID": 35,
@@ -318,8 +319,8 @@
             "ID": 45,
             "WordName": "Write",
             "VietMeaning": "Viết/ghi",
-            "EnglishDescription": "To make marks that represent letters, words, or numbers on a surface, such as paper or a computer screen, using a pen, pencil, or keyboard, or to use this method to record thoughts, facts, or messages",
-            "VietDescription": "Để tạo các dấu đại diện cho các chữ cái, từ hoặc số trên bề mặt, chẳng hạn như giấy hoặc màn hình máy tính, sử dụng bút, bút chì hoặc bàn phím hoặc sử dụng phương pháp này để ghi lại suy nghĩ, sự kiện hoặc tin nhắn"
+            "EnglishDescription": "To make letters or numbers on a surface, especially using a pen or a pencil",
+            "VietDescription": "Để tạo ra các chữ cái hoặc số trên bề mặt, đặc biệt là sử dụng bút mực hoặc bút chì"
         },
         {
             "ID": 46,
