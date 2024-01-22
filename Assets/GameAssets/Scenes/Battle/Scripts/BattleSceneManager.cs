@@ -1,10 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Unity.Mathematics;
-using UnityEditor.Animations;
 using UnityEngine;
-using UnityEngine.UI;
 
 public enum BattleState
 {
@@ -50,7 +47,7 @@ public class BattleSceneManager : MonoBehaviour
     [SerializeField] private Animator _playerAnimator;
     [SerializeField] private Animator _enemyAnimator;
 
-    [SerializeField] private List<AnimatorController> animatorControllers;
+    [SerializeField] private List<RuntimeAnimatorController> animatorControllers;
 
     private void Awake()
     {
@@ -181,6 +178,7 @@ public class BattleSceneManager : MonoBehaviour
             }
             else
             {
+                _gameManagerSingleton.generatedWords = _battleDataManager.GeneratedWordsList;
                 _battleUIManager.endGamePanel.SetActive(true);
                 _battleUIManager.endGameResultText.text = "Victory!";
             }
@@ -203,6 +201,7 @@ public class BattleSceneManager : MonoBehaviour
 
         if (_player.HP <= 0)
         {
+            _gameManagerSingleton.generatedWords = _battleDataManager.GeneratedWordsList;
             _battleUIManager.endGamePanel.SetActive(true);
             _battleUIManager.endGameResultText.text = "Defeated";
         }

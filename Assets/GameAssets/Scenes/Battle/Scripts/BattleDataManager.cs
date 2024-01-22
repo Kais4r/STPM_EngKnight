@@ -11,6 +11,7 @@ using System;
 
 public class BattleDataManager : MonoBehaviour
 {
+    private GameManagerSingleton _gameManagerSingleton;
     [SerializeField] private BattleSceneManager _battleSceneManager;
     private string jsonString;
 
@@ -19,6 +20,11 @@ public class BattleDataManager : MonoBehaviour
     
     public EnglishWord WordToGuess {  get; set; }
     public List<EnglishWord> WrongAnswerWordsList { get; set; }
+
+    public void Awake()
+    {
+        _gameManagerSingleton = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerSingleton>();
+    }
 
     public void LoadData(string streamingAssetdataPath, int[] range)
     {
@@ -61,6 +67,7 @@ public class BattleDataManager : MonoBehaviour
     {   
         if (WordsList.Count <= 0)
         {
+            _gameManagerSingleton.generatedWords = GeneratedWordsList;
             _battleSceneManager._battleUIManager.endGamePanel.SetActive(true);
             _battleSceneManager._battleUIManager.endGameResultText.text = "Defeated, out of words";
         }

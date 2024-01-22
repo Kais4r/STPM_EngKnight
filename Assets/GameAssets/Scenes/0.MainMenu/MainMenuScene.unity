@@ -1035,6 +1035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff5e898210da2cc4f9492d0828ab61d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  noteContent: 
   cefrLevel: 
   gameMode: 0
 --- !u!1 &663221544
@@ -1290,7 +1291,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: BattleScene
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &856136365
