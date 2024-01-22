@@ -10,6 +10,7 @@ public class GameManagerSingleton : MonoBehaviour
     public Character player;
     public string cefrLevel;
     public GameMode gameMode;
+    public List<EnglishWord> generatedWords;
 
     public void Awake()
     {
