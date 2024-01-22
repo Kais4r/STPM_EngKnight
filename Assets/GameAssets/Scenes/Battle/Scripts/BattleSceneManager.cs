@@ -88,27 +88,7 @@ public class BattleSceneManager : MonoBehaviour
             SetUpEnglishToVietQuizQuestion();
         }
         battleState = BattleState.PlayerTurn;
-    }
-
-    // Set up question functions:
-    private void SetUpEnglishToVietQuizQuestion()
-    {
-        _battleDataManager.GenerateEnglishWordsList();
-        _battleUIManager.enemyChat.text = "E:Tell me what is " + _battleDataManager.WordToGuess.WordName;
-        _battleUIManager.playerChat.text = "P:Hmm...";
-
-        List<int> arr = new() { 0, 1, 2, 3 };
-        System.Random random = new System.Random();
-        arr = arr.OrderBy(x => random.Next()).ToList();
-
-        _battleUIManager.answerButtons[arr[0]].text = _battleDataManager.WordToGuess.VietMeaning;
-        arr.RemoveAt(0);
-
-        for (int i = 0; i < arr.Count; i++)
-        {
-            _battleUIManager.answerButtons[arr[i]].text = _battleDataManager.WrongAnswerWordsList[i].VietMeaning;
-        }
-    }
+    } 
 
     public void ProcessPlayerQuizResult(bool result)
     {
@@ -220,6 +200,47 @@ public class BattleSceneManager : MonoBehaviour
                 SetUpEnglishToVietQuizQuestion();
                 battleState = BattleState.PlayerTurn;
             }
+        }
+    }
+
+    // Set up question functions:
+    // English to Viet
+    private void SetUpEnglishToVietQuizQuestion()
+    {
+        _battleDataManager.GenerateEnglishWordsList();
+        _battleUIManager.enemyChat.text = "E:Tell me what is " + _battleDataManager.WordToGuess.WordName;
+        _battleUIManager.playerChat.text = "P:Hmm...";
+
+        List<int> arr = new() { 0, 1, 2, 3 };
+        System.Random random = new System.Random();
+        arr = arr.OrderBy(x => random.Next()).ToList();
+
+        _battleUIManager.answerButtons[arr[0]].text = _battleDataManager.WordToGuess.VietMeaning;
+        arr.RemoveAt(0);
+
+        for (int i = 0; i < arr.Count; i++)
+        {
+            _battleUIManager.answerButtons[arr[i]].text = _battleDataManager.WrongAnswerWordsList[i].VietMeaning;
+        }
+    }
+
+    // Viet to English
+    private void SetUpVietToEnglishQuizQuestion()
+    {
+        _battleDataManager.GenerateEnglishWordsList();
+        _battleUIManager.enemyChat.text = "E:Tell me what is " + _battleDataManager.WordToGuess.VietMeaning;
+        _battleUIManager.playerChat.text = "P:Hmm...";
+
+        List<int> arr = new() { 0, 1, 2, 3 };
+        System.Random random = new System.Random();
+        arr = arr.OrderBy(x => random.Next()).ToList();
+
+        _battleUIManager.answerButtons[arr[0]].text = _battleDataManager.WordToGuess.VietMeaning;
+        arr.RemoveAt(0);
+
+        for (int i = 0; i < arr.Count; i++)
+        {
+            _battleUIManager.answerButtons[arr[i]].text = _battleDataManager.WrongAnswerWordsList[i].VietMeaning;
         }
     }
 }

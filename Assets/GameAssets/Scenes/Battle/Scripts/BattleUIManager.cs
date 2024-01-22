@@ -46,10 +46,10 @@ public class BattleUIManager : MonoBehaviour
         _enemy = _battleSceneManager.GetCharacter("enemy");
 
         playerName.text = _player.Name;
-        playerHP.text = "HP: " + _player.HP.ToString();
+        playerHP.text = _player.HP.ToString();
 
         enemyName.text = _enemy.Name;
-        enemyHP.text = "HP: " + _enemy.HP.ToString();
+        enemyHP.text = _enemy.HP.ToString();
     }
 
     public void UpdateCombatInfo()
@@ -57,7 +57,7 @@ public class BattleUIManager : MonoBehaviour
         _player = _battleSceneManager.GetCharacter("player");
         _enemy = _battleSceneManager.GetCharacter("enemy");
 
-        playerHP.text = "HP: " + _player.HP.ToString();
-        enemyHP.text = "HP: " + _enemy.HP.ToString();
+        playerHP.text = _player.HP.ToString();
+        enemyHP.text = _enemy.HP.ToString();
     }
 }
