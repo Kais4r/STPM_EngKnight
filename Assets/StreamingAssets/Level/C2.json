@@ -3,343 +3,343 @@
             "ID": 0,
             "WordName": "Able",
             "VietMeaning": "Tài năng",
-            "EngSub": "Intelligent or good at what you do",
-            "VietSub": "Thông minh hoặc giỏi việc bạn làm"
+            "EnglishDescription": "Intelligent or good at what you do",
+            "VietDescription": "Thông minh hoặc giỏi việc bạn làm"
         },
         {
             "ID": 1,
             "WordName": "Awkward",
             "VietMeaning": "Khó xử",
-            "EngSub": "Embarrassed or nervous",
-            "VietSub": "Xấu hổ hoặc lo lắng"
+            "EnglishDescription": "Embarrassed or nervous",
+            "VietDescription": "Xấu hổ hoặc lo lắng"
         },
         {
             "ID": 2,
             "WordName": "Baggage",
             "VietMeaning": "Hành lý",
-            "EngSub": "Bags, cases, etc. That you take with you when you travel",
-            "VietSub": "Túi xách, hộp đựng, v.v. Mà bạn mang theo khi đi du lịch"
+            "EnglishDescription": "Bags, cases, etc. That you take with you when you travel",
+            "VietDescription": "Túi xách, hộp đựng, v.v. Mà bạn mang theo khi đi du lịch"
         },
         {
             "ID": 3,
             "WordName": "Buzz",
             "VietMeaning": "Kêu to",
-            "EngSub": "To make a continuous, low sound such as the one a bee makes",
-            "VietSub": "Để tạo ra một âm thanh liên tục, thấp như âm thanh của một con ong"
+            "EnglishDescription": "To make a continuous, low sound such as the one a bee makes",
+            "VietDescription": "Để tạo ra một âm thanh liên tục, thấp như âm thanh của một con ong"
         },
         {
             "ID": 4,
             "WordName": "Cabin",
             "VietMeaning": "Buồng hành khách",
-            "EngSub": "A small room where you sleep in a ship",
-            "VietSub": "Một căn phòng nhỏ nơi bạn ngủ trên một con tàu"
+            "EnglishDescription": "A small room where you sleep in a ship",
+            "VietDescription": "Một căn phòng nhỏ nơi bạn ngủ trên một con tàu"
         },
         {
             "ID": 5,
             "WordName": "Cutlery",
             "VietMeaning": "Dao kéo",
-            "EngSub": "Knives, forks, and spoons used for eating food",
-            "VietSub": "Dao, nĩa, thìa dùng để ăn thức ăn"
+            "EnglishDescription": "Knives, forks, and spoons used for eating food",
+            "VietDescription": "Dao, nĩa, thìa dùng để ăn thức ăn"
         },
         {
             "ID": 6,
             "WordName": "Dare",
             "VietMeaning": "Liều",
-            "EngSub": "To ask someone to do something that involves risk",
-            "VietSub": "Yêu cầu ai đó làm điều gì đó có nguy cơ"
+            "EnglishDescription": "To ask someone to do something that involves risk",
+            "VietDescription": "Yêu cầu ai đó làm điều gì đó có nguy cơ"
         },
         {
             "ID": 7,
             "WordName": "Due",
             "VietMeaning": "Nợ",
-            "EngSub": "Owed as a debt or as a right",
-            "VietSub": "Nợ như một khoản nợ hoặc như một quyền"
+            "EnglishDescription": "Owed as a debt or as a right",
+            "VietDescription": "Nợ như một khoản nợ hoặc như một quyền"
         },
         {
             "ID": 8,
             "WordName": "Ear",
             "VietMeaning": "Tai",
-            "EngSub": "Either of the two organs, one on each side of the head, by which people or animals hear sounds, or the piece of skin and tissue outside the head connected to this organ",
-            "VietSub": "Một trong hai cơ quan, mỗi cơ quan ở một bên đầu, nhờ đó con người hoặc động vật nghe được âm thanh, hoặc phần da và mô bên ngoài đầu nối với cơ quan này"
+            "EnglishDescription": "Either of the two organs, one on each side of the head, by which people or animals hear sounds, or the piece of skin and tissue outside the head connected to this organ",
+            "VietDescription": "Một trong hai cơ quan, mỗi cơ quan ở một bên đầu, nhờ đó con người hoặc động vật nghe được âm thanh, hoặc phần da và mô bên ngoài đầu nối với cơ quan này"
         },
         {
             "ID": 9,
             "WordName": "Extremist",
             "VietMeaning": "Người theo chủ nghĩa cực đoan",
-            "EngSub": "Someone who has beliefs that most people think are unreasonable and unacceptable",
-            "VietSub": "Một người có niềm tin mà hầu hết mọi người nghĩ là không hợp lý và không thể chấp nhận được"
+            "EnglishDescription": "Someone who has beliefs that most people think are unreasonable and unacceptable",
+            "VietDescription": "Một người có niềm tin mà hầu hết mọi người nghĩ là không hợp lý và không thể chấp nhận được"
         },
         {
             "ID": 10,
             "WordName": "Fabric",
             "VietMeaning": "Vải vóc",
-            "EngSub": "Cloth or material for making clothes, covering furniture, etc.",
-            "VietSub": "Vải hoặc vật liệu để làm quần áo, bọc đồ nội thất, v.v."
+            "EnglishDescription": "Cloth or material for making clothes, covering furniture, etc.",
+            "VietDescription": "Vải hoặc vật liệu để làm quần áo, bọc đồ nội thất, v.v."
         },
         {
             "ID": 11,
             "WordName": "Fussy",
             "VietMeaning": "Làm phiền",
-            "EngSub": "Not easily satisfied, or having very high standards about particular things",
-            "VietSub": "Không dễ dàng hài lòng, hoặc có tiêu chuẩn rất cao về những điều cụ thể"
+            "EnglishDescription": "Not easily satisfied, or having very high standards about particular things",
+            "VietDescription": "Không dễ dàng hài lòng, hoặc có tiêu chuẩn rất cao về những điều cụ thể"
         },
         {
             "ID": 12,
             "WordName": "Gamble",
             "VietMeaning": "Cờ bạc",
-            "EngSub": "To risk money, for example in a game or on a horse race",
-            "VietSub": "Mạo hiểm tiền bạc, ví dụ như trong một trò chơi hoặc trong một cuộc đua ngựa"
+            "EnglishDescription": "To risk money, for example in a game or on a horse race",
+            "VietDescription": "Mạo hiểm tiền bạc, ví dụ như trong một trò chơi hoặc trong một cuộc đua ngựa"
         },
         {
             "ID": 13,
             "WordName": "Guts",
             "VietMeaning": "Ruột",
-            "EngSub": "Bowels",
-            "VietSub": "Ruột"
+            "EnglishDescription": "Bowels",
+            "VietDescription": "Ruột"
         },
         {
             "ID": 14,
             "WordName": "Hail",
             "VietMeaning": "Mưa đá",
-            "EngSub": "Small, hard balls of ice that fall from the sky like rain",
-            "VietSub": "Những quả cầu băng nhỏ, cứng từ trên trời rơi xuống như mưa"
+            "EnglishDescription": "Small, hard balls of ice that fall from the sky like rain",
+            "VietDescription": "Những quả cầu băng nhỏ, cứng từ trên trời rơi xuống như mưa"
         },
         {
             "ID": 15,
             "WordName": "Hypothesis",
             "VietMeaning": "Sự giả thuyết",
-            "EngSub": "An idea or explanation for something that is based on known facts but has not yet been proved",
-            "VietSub": "Một ý tưởng hoặc lời giải thích cho một cái gì đó dựa trên những sự kiện đã biết nhưng chưa được chứng minh"
+            "EnglishDescription": "An idea or explanation for something that is based on known facts but has not yet been proved",
+            "VietDescription": "Một ý tưởng hoặc lời giải thích cho một cái gì đó dựa trên những sự kiện đã biết nhưng chưa được chứng minh"
         },
         {
             "ID": 16,
             "WordName": "Iceberg",
             "VietMeaning": "Tảng băng",
-            "EngSub": "A very large mass of ice that floats in the sea",
-            "VietSub": "Một khối băng rất lớn trôi nổi trên biển"
+            "EnglishDescription": "A very large mass of ice that floats in the sea",
+            "VietDescription": "Một khối băng rất lớn trôi nổi trên biển"
         },
         {
             "ID": 17,
             "WordName": "Itch",
             "VietMeaning": "Ngứa",
-            "EngSub": "To have or cause an uncomfortable feeling on the skin that makes you want to rub it with your nails",
-            "VietSub": "Có hoặc gây ra cảm giác khó chịu trên da khiến bạn muốn chà xát nó bằng móng tay"
+            "EnglishDescription": "To have or cause an uncomfortable feeling on the skin that makes you want to rub it with your nails",
+            "VietDescription": "Có hoặc gây ra cảm giác khó chịu trên da khiến bạn muốn chà xát nó bằng móng tay"
         },
         {
             "ID": 18,
             "WordName": "Job",
             "VietMeaning": "Công việc",
-            "EngSub": "The regular work that a person does to earn money",
-            "VietSub": "Công việc thường xuyên mà một người làm để kiếm tiền"
+            "EnglishDescription": "The regular work that a person does to earn money",
+            "VietDescription": "Công việc thường xuyên mà một người làm để kiếm tiền"
         },
         {
             "ID": 19,
             "WordName": "Justification",
             "VietMeaning": "Sự biện minh",
-            "EngSub": "A good reason or explanation for something",
-            "VietSub": "Một lý do chính đáng hoặc lời giải thích cho một cái gì đó"
+            "EnglishDescription": "A good reason or explanation for something",
+            "VietDescription": "Một lý do chính đáng hoặc lời giải thích cho một cái gì đó"
         },
         {
             "ID": 20,
             "WordName": "Keep",
             "VietMeaning": "Tuân theo",
-            "EngSub": "To provide yourself or another person with food, clothing, a home, and other things necessary for basic living",
-            "VietSub": "Để cung cấp cho bản thân hoặc người khác thực phẩm, quần áo, nhà ở và những thứ khác cần thiết cho cuộc sống cơ bản"
+            "EnglishDescription": "To provide yourself or another person with food, clothing, a home, and other things necessary for basic living",
+            "VietDescription": "Để cung cấp cho bản thân hoặc người khác thực phẩm, quần áo, nhà ở và những thứ khác cần thiết cho cuộc sống cơ bản"
         },
         {
             "ID": 21,
             "WordName": "Knuckle",
             "VietMeaning": "Đốt ngóng tay",
-            "EngSub": "One of the joints in the hand where your fingers bend, especially where your fingers join on to the main part of your hand",
-            "VietSub": "Một trong những khớp ở bàn tay nơi các ngón tay của bạn uốn cong, đặc biệt là nơi các ngón tay của bạn nối với phần chính của bàn tay"
+            "EnglishDescription": "One of the joints in the hand where your fingers bend, especially where your fingers join on to the main part of your hand",
+            "VietDescription": "Một trong những khớp ở bàn tay nơi các ngón tay của bạn uốn cong, đặc biệt là nơi các ngón tay của bạn nối với phần chính của bàn tay"
         },
         {
             "ID": 22,
             "WordName": "Lack",
             "VietMeaning": "Sự thiếu thốn",
-            "EngSub": "The fact that something is not available or that there is not enough of it",
-            "VietSub": "Thực tế là một cái gì đó không có sẵn hoặc không có đủ"
+            "EnglishDescription": "The fact that something is not available or that there is not enough of it",
+            "VietDescription": "Thực tế là một cái gì đó không có sẵn hoặc không có đủ"
         },
         {
             "ID": 23,
             "WordName": "Lure",
             "VietMeaning": "Thu hút",
-            "EngSub": "The quality or power that something or someone has that makes it, him, or her attractive",
-            "VietSub": "Chất lượng hoặc sức mạnh mà một cái gì đó hoặc ai đó có khiến cho nó, anh ấy hoặc cô ấy trở nên hấp dẫn"
+            "EnglishDescription": "The quality or power that something or someone has that makes it, him, or her attractive",
+            "VietDescription": "Chất lượng hoặc sức mạnh mà một cái gì đó hoặc ai đó có khiến cho nó, anh ấy hoặc cô ấy trở nên hấp dẫn"
         },
         {
             "ID": 24,
             "WordName": "Mainstream",
             "VietMeaning": "Xu hướng",
-            "EngSub": "Considered normal, and having or using ideas, beliefs, etc. That are accepted by most people",
-            "VietSub": "Được coi là bình thường và có hoặc sử dụng các ý tưởng, niềm tin, v.v. Được hầu hết mọi người chấp nhận"
+            "EnglishDescription": "Considered normal, and having or using ideas, beliefs, etc. That are accepted by most people",
+            "VietDescription": "Được coi là bình thường và có hoặc sử dụng các ý tưởng, niềm tin, v.v. Được hầu hết mọi người chấp nhận"
         },
         {
             "ID": 25,
             "WordName": "Musically",
             "VietMeaning": "Về mặt âm nhạc",
-            "EngSub": "In a way that relates to music",
-            "VietSub": "Theo cách liên quan đến âm nhạc"
+            "EnglishDescription": "In a way that relates to music",
+            "VietDescription": "Theo cách liên quan đến âm nhạc"
         },
         {
             "ID": 26,
             "WordName": "Naked",
             "VietMeaning": "Khỏa thân",
-            "EngSub": "A naked feeling or quality is not hidden, although it is bad",
-            "VietSub": "Một cảm giác hoặc phẩm chất trần trụi không bị che giấu, mặc dù nó xấu"
+            "EnglishDescription": "A naked feeling or quality is not hidden, although it is bad",
+            "VietDescription": "Một cảm giác hoặc phẩm chất trần trụi không bị che giấu, mặc dù nó xấu"
         },
         {
             "ID": 27,
             "WordName": "Novelty",
             "VietMeaning": "Sự mới lạ",
-            "EngSub": "The quality of being new and unusual",
-            "VietSub": "Chất lượng của sự mới mẻ và khác thường"
+            "EnglishDescription": "The quality of being new and unusual",
+            "VietDescription": "Chất lượng của sự mới mẻ và khác thường"
         },
         {
             "ID": 28,
             "WordName": "Obligatory",
             "VietMeaning": "Bắt buộc",
-            "EngSub": "Expected because it usually happens",
-            "VietSub": "Mong đợi vì nó thường xảy ra"
+            "EnglishDescription": "Expected because it usually happens",
+            "VietDescription": "Mong đợi vì nó thường xảy ra"
         },
         {
             "ID": 29,
             "WordName": "Owe",
             "VietMeaning": "Nợ",
-            "EngSub": "To have success, happiness, a job, etc. Only because of what someone has given you or done for you or because of your own efforts",
-            "VietSub": "Có được thành công, hạnh phúc, một công việc, v.v. Chỉ nhờ những gì ai đó đã cho bạn hoặc đã làm cho bạn hoặc vì nỗ lực của chính bạn"
+            "EnglishDescription": "To have success, happiness, a job, etc. Only because of what someone has given you or done for you or because of your own efforts",
+            "VietDescription": "Có được thành công, hạnh phúc, một công việc, v.v. Chỉ nhờ những gì ai đó đã cho bạn hoặc đã làm cho bạn hoặc vì nỗ lực của chính bạn"
         },
         {
             "ID": 30,
             "WordName": "Pace",
             "VietMeaning": "Nhịp độ",
-            "EngSub": "The speed at which someone or something moves, or with which something happens or changes",
-            "VietSub": "Tốc độ mà ai đó hoặc cái gì đó di chuyển, hoặc với cái gì đó xảy ra hoặc thay đổi"
+            "EnglishDescription": "The speed at which someone or something moves, or with which something happens or changes",
+            "VietDescription": "Tốc độ mà ai đó hoặc cái gì đó di chuyển, hoặc với cái gì đó xảy ra hoặc thay đổi"
         },
         {
             "ID": 31,
             "WordName": "Puzzle",
             "VietMeaning": "Vấn đề khó giả quyết",
-            "EngSub": "Situation that is difficult to understand",
-            "VietSub": "Tình huống khó hiểu"
+            "EnglishDescription": "Situation that is difficult to understand",
+            "VietDescription": "Tình huống khó hiểu"
         },
         {
             "ID": 32,
             "WordName": "Quaint",
             "VietMeaning": "Kì dị",
-            "EngSub": "Attractive because of being unusual and especially old-fashioned",
-            "VietSub": "Hấp dẫn vì khác thường và đặc biệt là lỗi thời"
+            "EnglishDescription": "Attractive because of being unusual and especially old-fashioned",
+            "VietDescription": "Hấp dẫn vì khác thường và đặc biệt là lỗi thời"
         },
         {
             "ID": 33,
             "WordName": "Questionable",
             "VietMeaning": "Không chắc đúng",
-            "EngSub": "Not certain, or wrong in some way",
-            "VietSub": "Không chắc chắn, hoặc sai ở một khía cạnh nào đó"
+            "EnglishDescription": "Not certain, or wrong in some way",
+            "VietDescription": "Không chắc chắn, hoặc sai ở một khía cạnh nào đó"
         },
         {
             "ID": 34,
             "WordName": "Racist",
             "VietMeaning": "Phân biệt chủng tộc",
-            "EngSub": "Someone who believes that their race makes them better, more intelligent, more moral, etc. Than people of other races and who does or says unfair or harmful things as a result",
-            "VietSub": "Ai đó tin rằng chủng tộc của họ làm cho họ tốt hơn, thông minh hơn, đạo đức hơn, v.v. So với những người thuộc chủng tộc khác và kết quả là họ làm hoặc nói những điều không công bằng hoặc có hại"
+            "EnglishDescription": "Someone who believes that their race makes them better, more intelligent, more moral, etc. Than people of other races and who does or says unfair or harmful things as a result",
+            "VietDescription": "Ai đó tin rằng chủng tộc của họ làm cho họ tốt hơn, thông minh hơn, đạo đức hơn, v.v. So với những người thuộc chủng tộc khác và kết quả là họ làm hoặc nói những điều không công bằng hoặc có hại"
         },
         {
             "ID": 35,
             "WordName": "Rut",
             "VietMeaning": "Vết mòn",
-            "EngSub": "A deep, narrow mark made in soft ground especially by a wheel",
-            "VietSub": "Một vết sâu và hẹp được tạo ra trên nền đất yếu, đặc biệt là bằng bánh xe"
+            "EnglishDescription": "A deep, narrow mark made in soft ground especially by a wheel",
+            "VietDescription": "Một vết sâu và hẹp được tạo ra trên nền đất yếu, đặc biệt là bằng bánh xe"
         },
         {
             "ID": 36,
             "WordName": "Sacred",
             "VietMeaning": "Bất khả xâm phạm",
-            "EngSub": "Considered too important to be changed",
-            "VietSub": "Được coi là quá quan trọng để được thay đổi"
+            "EnglishDescription": "Considered too important to be changed",
+            "VietDescription": "Được coi là quá quan trọng để được thay đổi"
         },
         {
             "ID": 37,
             "WordName": "Synonym",
             "VietMeaning": "Chữ đồng nghĩa",
-            "EngSub": "A word or phrase that has the same or nearly the same meaning as another word or phrase in the same language",
-            "VietSub": "Một từ hoặc cụm từ có nghĩa giống hoặc gần giống với một từ hoặc cụm từ khác trong cùng một ngôn ngữ"
+            "EnglishDescription": "A word or phrase that has the same or nearly the same meaning as another word or phrase in the same language",
+            "VietDescription": "Một từ hoặc cụm từ có nghĩa giống hoặc gần giống với một từ hoặc cụm từ khác trong cùng một ngôn ngữ"
         },
         {
             "ID": 38,
             "WordName": "Tact",
             "VietMeaning": "Sự khéo léo",
-            "EngSub": "The ability to say or do the right thing without making anyone unhappy or angry",
-            "VietSub": "Khả năng nói hoặc làm điều đúng đắn mà không làm ai khó chịu hay tức giận"
+            "EnglishDescription": "The ability to say or do the right thing without making anyone unhappy or angry",
+            "VietDescription": "Khả năng nói hoặc làm điều đúng đắn mà không làm ai khó chịu hay tức giận"
         },
         {
             "ID": 39,
             "WordName": "Twisted",
             "VietMeaning": "Vặn vẹo",
-            "EngSub": "Strange and slightly unpleasant or cruel",
-            "VietSub": "Kỳ lạ và hơi khó chịu hoặc tàn nhẫn"
+            "EnglishDescription": "Strange and slightly unpleasant or cruel",
+            "VietDescription": "Kỳ lạ và hơi khó chịu hoặc tàn nhẫn"
         },
         {
             "ID": 40,
             "WordName": "Ugly",
             "VietMeaning": "Khó chịu",
-            "EngSub": "Unpleasant and threatening or violent",
-            "VietSub": "Khó chịu và đe dọa hoặc bạo lực"
+            "EnglishDescription": "Unpleasant and threatening or violent",
+            "VietDescription": "Khó chịu và đe dọa hoặc bạo lực"
         },
         {
             "ID": 41,
             "WordName": "Utter",
             "VietMeaning": "Thốt lên",
-            "EngSub": "To say something or to make a sound with your voice",
-            "VietSub": "Nói điều gì đó hoặc tạo ra âm thanh bằng giọng nói của bạn"
+            "EnglishDescription": "To say something or to make a sound with your voice",
+            "VietDescription": "Nói điều gì đó hoặc tạo ra âm thanh bằng giọng nói của bạn"
         },
         {
             "ID": 42,
             "WordName": "Vaccinate",
             "VietMeaning": "Tiêm chủng",
-            "EngSub": "To give someone a vaccine, usually by injection, to prevent them from getting a disease",
-            "VietSub": "Cung cấp cho ai đó một loại vắc-xin, thường bằng cách tiêm, để ngăn ngừa họ mắc bệnh"
+            "EnglishDescription": "To give someone a vaccine, usually by injection, to prevent them from getting a disease",
+            "VietDescription": "Cung cấp cho ai đó một loại vắc-xin, thường bằng cách tiêm, để ngăn ngừa họ mắc bệnh"
         },
         {
             "ID": 43,
             "WordName": "Vow",
             "VietMeaning": "Lời thề",
-            "EngSub": "To make a determined decision or promise to do something",
-            "VietSub": "Để đưa ra một quyết định kiên quyết hoặc hứa sẽ làm điều gì đó"
+            "EnglishDescription": "To make a determined decision or promise to do something",
+            "VietDescription": "Để đưa ra một quyết định kiên quyết hoặc hứa sẽ làm điều gì đó"
         },
         {
             "ID": 44,
             "WordName": "Wander",
             "VietMeaning": "Lãng trí",
-            "EngSub": "If your mind or your thoughts wander, you stop thinking about the subject that you should be giving your attention to and start thinking about other matters",
-            "VietSub": "Nếu tâm trí hoặc suy nghĩ của bạn lang thang, bạn sẽ ngừng suy nghĩ về chủ đề mà bạn nên chú ý đến và bắt đầu nghĩ đến những vấn đề khác"
+            "EnglishDescription": "If your mind or your thoughts wander, you stop thinking about the subject that you should be giving your attention to and start thinking about other matters",
+            "VietDescription": "Nếu tâm trí hoặc suy nghĩ của bạn lang thang, bạn sẽ ngừng suy nghĩ về chủ đề mà bạn nên chú ý đến và bắt đầu nghĩ đến những vấn đề khác"
         },
         {
             "ID": 45,
             "WordName": "Write",
             "VietMeaning": "Viết/ghi",
-            "EngSub": "To make marks that represent letters, words, or numbers on a surface, such as paper or a computer screen, using a pen, pencil, or keyboard, or to use this method to record thoughts, facts, or messages",
-            "VietSub": "Để tạo các dấu đại diện cho các chữ cái, từ hoặc số trên bề mặt, chẳng hạn như giấy hoặc màn hình máy tính, sử dụng bút, bút chì hoặc bàn phím hoặc sử dụng phương pháp này để ghi lại suy nghĩ, sự kiện hoặc tin nhắn"
+            "EnglishDescription": "To make marks that represent letters, words, or numbers on a surface, such as paper or a computer screen, using a pen, pencil, or keyboard, or to use this method to record thoughts, facts, or messages",
+            "VietDescription": "Để tạo các dấu đại diện cho các chữ cái, từ hoặc số trên bề mặt, chẳng hạn như giấy hoặc màn hình máy tính, sử dụng bút, bút chì hoặc bàn phím hoặc sử dụng phương pháp này để ghi lại suy nghĩ, sự kiện hoặc tin nhắn"
         },
         {
             "ID": 46,
             "WordName": "Xenophobia",
             "VietMeaning": "Ghét người ngoại quốc",
-            "EngSub": "Extreme dislike or fear of foreigners, their customs, their religions, etc.",
-            "VietSub": "Cực kỳ không thích hoặc sợ hãi người nước ngoài, phong tục, tôn giáo của họ, v.v."
+            "EnglishDescription": "Extreme dislike or fear of foreigners, their customs, their religions, etc.",
+            "VietDescription": "Cực kỳ không thích hoặc sợ hãi người nước ngoài, phong tục, tôn giáo của họ, v.v."
         },
         {
             "ID": 47,
             "WordName": "Yearn",
             "VietMeaning": "Khao khát",
-            "EngSub": "To wish very strongly, especially for something that you cannot have or something that is very difficult to have",
-            "VietSub": "Mong muốn thật mạnh mẽ, đặc biệt là một điều gì đó mà bạn không thể có hoặc một điều gì đó rất khó có"
+            "EnglishDescription": "To wish very strongly, especially for something that you cannot have or something that is very difficult to have",
+            "VietDescription": "Mong muốn thật mạnh mẽ, đặc biệt là một điều gì đó mà bạn không thể có hoặc một điều gì đó rất khó có"
         },
         {
             "ID": 48,
             "WordName": "Yield",
             "VietMeaning": "Bày ra",
-            "EngSub": "To supply or produce something positive such as a profit, an amount of food or information",
-            "VietSub": "Cung cấp hoặc sản xuất thứ gì đó tích cực như lợi nhuận, lượng thực phẩm hoặc thông tin"
+            "EnglishDescription": "To supply or produce something positive such as a profit, an amount of food or information",
+            "VietDescription": "Cung cấp hoặc sản xuất thứ gì đó tích cực như lợi nhuận, lượng thực phẩm hoặc thông tin"
         }
 ]

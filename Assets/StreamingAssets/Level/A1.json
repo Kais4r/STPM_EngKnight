@@ -3,343 +3,343 @@
             "ID": 0,
             "WordName": "About",
             "VietMeaning": "Về",
-            "EngSub": "On the subject of somebody/something; in connection with somebody/something",
-            "VietSub": "Về chủ đề của ai đó/cái gì đó; liên quan đến ai/cái gì"
+            "EnglishDescription": "On the subject of somebody/something; in connection with somebody/something",
+            "VietDescription": "Về chủ đề của ai đó/cái gì đó; liên quan đến ai/cái gì"
         },
         {
             "ID": 1,
             "WordName": "Away",
             "VietMeaning": "Xa",
-            "EngSub": "To or at a distance from somebody/something in space or time",
-            "VietSub": "Đến hoặc ở một khoảng cách với ai đó/cái gì đó trong không gian hoặc thời gian"
+            "EnglishDescription": "To or at a distance from somebody/something in space or time",
+            "VietDescription": "Đến hoặc ở một khoảng cách với ai đó/cái gì đó trong không gian hoặc thời gian"
         },
         {
             "ID": 2,
             "WordName": "Baby",
             "VietMeaning": "Đứa bé",
-            "EngSub": "A very young child or animal",
-            "VietSub": "Một đứa trẻ hoặc động vật còn rất nhỏ"
+            "EnglishDescription": "A very young child or animal",
+            "VietDescription": "Một đứa trẻ hoặc động vật còn rất nhỏ"
         },
         {
             "ID": 3,
             "WordName": "Bye",
             "VietMeaning": "Tạm biệt",
-            "EngSub": "Goodbye",
-            "VietSub": "Tạm biệt"
+            "EnglishDescription": "Goodbye",
+            "VietDescription": "Tạm biệt"
         },
         {
             "ID": 4,
             "WordName": "Cake",
             "VietMeaning": "Bánh ngọt",
-            "EngSub": "A sweet food made from a mixture of flour, eggs, butter, sugar, etc. That is baked in an oven",
-            "VietSub": "Một món ăn ngọt được làm từ hỗn hợp bột mì, trứng, bơ, đường, v.v... Được nướng trong lò"
+            "EnglishDescription": "A sweet food made from a mixture of flour, eggs, butter, sugar, etc. That is baked in an oven",
+            "VietDescription": "Một món ăn ngọt được làm từ hỗn hợp bột mì, trứng, bơ, đường, v.v... Được nướng trong lò"
         },
         {
             "ID": 5,
             "WordName": "Cut",
             "VietMeaning": "Cắt",
-            "EngSub": "To make an opening or a wound in something, especially with a sharp tool such as a knife or scissors",
-            "VietSub": "Tạo ra một lỗ hở hoặc một vết thương ở một cái gì đó, đặc biệt là với một dụng cụ sắc bén như dao hoặc kéo"
+            "EnglishDescription": "To make an opening or a wound in something, especially with a sharp tool such as a knife or scissors",
+            "VietDescription": "Tạo ra một lỗ hở hoặc một vết thương ở một cái gì đó, đặc biệt là với một dụng cụ sắc bén như dao hoặc kéo"
         },
         {
             "ID": 6,
             "WordName": "Dance",
             "VietMeaning": "Nhảy",
-            "EngSub": "A series of movements and steps that are usually performed to music; a particular example of these movements and steps",
-            "VietSub": "Một loạt các động tác và bước đi thường được biểu diễn theo nhạc; một ví dụ cụ thể về những chuyển động và bước này"
+            "EnglishDescription": "A series of movements and steps that are usually performed to music; a particular example of these movements and steps",
+            "VietDescription": "Một loạt các động tác và bước đi thường được biểu diễn theo nhạc; một ví dụ cụ thể về những chuyển động và bước này"
         },
         {
             "ID": 7,
             "WordName": "During",
             "VietMeaning": "Trong lúc",
-            "EngSub": "All through a period of time",
-            "VietSub": "Suốt một khoảng thời gian"
+            "EnglishDescription": "All through a period of time",
+            "VietDescription": "Suốt một khoảng thời gian"
         },
         {
             "ID": 8,
             "WordName": "Each",
             "VietMeaning": "Mỗi",
-            "EngSub": "Used to refer to every one of two or more people or things, when you are thinking about them separately",
-            "VietSub": "Được sử dụng để đề cập đến từng người hoặc nhiều thứ khi bạn nghĩ về chúng một cách riêng biệt"
+            "EnglishDescription": "Used to refer to every one of two or more people or things, when you are thinking about them separately",
+            "VietDescription": "Được sử dụng để đề cập đến từng người hoặc nhiều thứ khi bạn nghĩ về chúng một cách riêng biệt"
         },
         {
             "ID": 9,
             "WordName": "Eye",
             "VietMeaning": "Mắt",
-            "EngSub": "One of the two organs in your face that are used for seeing",
-            "VietSub": "Một trong hai cơ quan trên khuôn mặt của bạn được sử dụng để nhìn"
+            "EnglishDescription": "One of the two organs in your face that are used for seeing",
+            "VietDescription": "Một trong hai cơ quan trên khuôn mặt của bạn được sử dụng để nhìn"
         },
         {
             "ID": 10,
             "WordName": "Fact",
             "VietMeaning": "Sự thật",
-            "EngSub": "A thing that is known to be true, especially when it can be proved",
-            "VietSub": "Một điều được biết là đúng, đặc biệt là khi nó có thể được chứng minh"
+            "EnglishDescription": "A thing that is known to be true, especially when it can be proved",
+            "VietDescription": "Một điều được biết là đúng, đặc biệt là khi nó có thể được chứng minh"
         },
         {
             "ID": 11,
             "WordName": "Future",
             "VietMeaning": "Tương lại",
-            "EngSub": "The time that will come after the present or the events that will happen then",
-            "VietSub": "Thời điểm sẽ đến sau hiện tại hoặc những sự kiện sẽ xảy ra trước đó"
+            "EnglishDescription": "The time that will come after the present or the events that will happen then",
+            "VietDescription": "Thời điểm sẽ đến sau hiện tại hoặc những sự kiện sẽ xảy ra trước đó"
         },
         {
             "ID": 12,
             "WordName": "Game",
             "VietMeaning": "Trò chơi",
-            "EngSub": "An activity that you do to have fun, often one that has rules and that you can win or lose; the equipment for a game",
-            "VietSub": "Một hoạt động mà bạn làm để giải trí, thường là một hoạt động có quy tắc và bạn có thể thắng hoặc thua;"
+            "EnglishDescription": "An activity that you do to have fun, often one that has rules and that you can win or lose; the equipment for a game",
+            "VietDescription": "Một hoạt động mà bạn làm để giải trí, thường là một hoạt động có quy tắc và bạn có thể thắng hoặc thua;"
         },
         {
             "ID": 13,
             "WordName": "Gym",
             "VietMeaning": "Phòng thể dục",
-            "EngSub": "A room or hall with equipment for doing physical exercise, for example in a school",
-            "VietSub": "Phòng hoặc hội trường có trang thiết bị để tập thể dục, ví dụ như ở trường học"
+            "EnglishDescription": "A room or hall with equipment for doing physical exercise, for example in a school",
+            "VietDescription": "Phòng hoặc hội trường có trang thiết bị để tập thể dục, ví dụ như ở trường học"
         },
         {
             "ID": 14,
             "WordName": "Hair",
             "VietMeaning": "Tóc",
-            "EngSub": "The substance that looks like a mass of fine threads growing on a person's head",
-            "VietSub": "Chất trông giống như một khối sợi nhỏ mọc trên đầu một người"
+            "EnglishDescription": "The substance that looks like a mass of fine threads growing on a person's head",
+            "VietDescription": "Chất trông giống như một khối sợi nhỏ mọc trên đầu một người"
         },
         {
             "ID": 15,
             "WordName": "Husband",
             "VietMeaning": "Chồng",
-            "EngSub": "He man that somebody is married to; a married man",
-            "VietSub": "Người đàn ông mà ai đó đã kết hôn; một người đàn ông đã có vợ"
+            "EnglishDescription": "He man that somebody is married to; a married man",
+            "VietDescription": "Người đàn ông mà ai đó đã kết hôn; một người đàn ông đã có vợ"
         },
         {
             "ID": 16,
             "WordName": "Ice",
             "VietMeaning": "Cục nước đá",
-            "EngSub": "Water that has frozen and become solid",
-            "VietSub": "Nước đã đóng băng và trở nên rất cứng"
+            "EnglishDescription": "Water that has frozen and become solid",
+            "VietDescription": "Nước đã đóng băng và trở nên rất cứng"
         },
         {
             "ID": 17,
             "WordName": "Isand",
             "VietMeaning": "Hòn đảo",
-            "EngSub": "A piece of land that is completely surrounded by water",
-            "VietSub": "Một mảnh đất được bao quanh hoàn toàn bởi nước"
+            "EnglishDescription": "A piece of land that is completely surrounded by water",
+            "VietDescription": "Một mảnh đất được bao quanh hoàn toàn bởi nước"
         },
         {
             "ID": 18,
             "WordName": "Jacket",
             "VietMeaning": "Áo khoác",
-            "EngSub": "A piece of clothing worn on the top half of the body over a shirt, etc. That has arms and fastens down the front; a short, light coat",
-            "VietSub": "Một mảnh quần áo mặc ở nửa trên của cơ thể bên ngoài áo sơ mi, v.v., có tay và buộc chặt phía trước; một chiếc áo khoác ngắn và nhẹ"
+            "EnglishDescription": "A piece of clothing worn on the top half of the body over a shirt, etc. That has arms and fastens down the front; a short, light coat",
+            "VietDescription": "Một mảnh quần áo mặc ở nửa trên của cơ thể bên ngoài áo sơ mi, v.v., có tay và buộc chặt phía trước; một chiếc áo khoác ngắn và nhẹ"
         },
         {
             "ID": 19,
             "WordName": "Just",
             "VietMeaning": "Chỉ một",
-            "EngSub": "Only",
-            "VietSub": "Chỉ một"
+            "EnglishDescription": "Only",
+            "VietDescription": "Chỉ một"
         },
         {
             "ID": 20,
             "WordName": "Keep",
             "VietMeaning": "Giữ",
-            "EngSub": "To continue to have something and not give it back or throw it away",
-            "VietSub": "Tiếp tục có cái gì đó và không trả lại hoặc vứt nó đi"
+            "EnglishDescription": "To continue to have something and not give it back or throw it away",
+            "VietDescription": "Tiếp tục có cái gì đó và không trả lại hoặc vứt nó đi"
         },
         {
             "ID": 21,
             "WordName": "Know",
             "VietMeaning": "Biết",
-            "EngSub": "To have information in your mind as a result of experience or because you have learned or been told it",
-            "VietSub": "Có thông tin trong đầu bạn nhờ kinh nghiệm hoặc vì bạn đã học được hoặc được cho biết về nó"
+            "EnglishDescription": "To have information in your mind as a result of experience or because you have learned or been told it",
+            "VietDescription": "Có thông tin trong đầu bạn nhờ kinh nghiệm hoặc vì bạn đã học được hoặc được cho biết về nó"
         },
         {
             "ID": 22,
             "WordName": "Land",
             "VietMeaning": "Đất liền",
-            "EngSub": "The surface of the earth that is not sea",
-            "VietSub": "Bề mặt trái đất không phải là  biển"
+            "EnglishDescription": "The surface of the earth that is not sea",
+            "VietDescription": "Bề mặt trái đất không phải là  biển"
         },
         {
             "ID": 23,
             "WordName": "Lunch",
             "VietMeaning": "Bữa trưa",
-            "EngSub": "A meal eaten in the middle of the day",
-            "VietSub": "Bữa ăn vào giữ ngày"
+            "EnglishDescription": "A meal eaten in the middle of the day",
+            "VietDescription": "Bữa ăn vào giữ ngày"
         },
         {
             "ID": 24,
             "WordName": "Magazine",
             "VietMeaning": "Tạp chí",
-            "EngSub": "A type of large thin book with a paper cover that you can buy every week or month, containing articles, photographs, etc., often on a particular topic; a similar collection of articles, etc. That appears ,regularly online",
-            "VietSub": "Một loại sách mỏng, khổ lớn có bìa giấy mà bạn có thể mua hàng tuần hoặc hàng tháng, chứa các bài báo, ảnh, v.v., thường về một chủ đề cụ thể; một tập hợp các bài báo tương tự, v.v. Xuất hiện thường xuyên ,trên mạng"
+            "EnglishDescription": "A type of large thin book with a paper cover that you can buy every week or month, containing articles, photographs, etc., often on a particular topic; a similar collection of articles, etc. That appears ,regularly online",
+            "VietDescription": "Một loại sách mỏng, khổ lớn có bìa giấy mà bạn có thể mua hàng tuần hoặc hàng tháng, chứa các bài báo, ảnh, v.v., thường về một chủ đề cụ thể; một tập hợp các bài báo tương tự, v.v. Xuất hiện thường xuyên ,trên mạng"
         },
         {
             "ID": 25,
             "WordName": "Must",
             "VietMeaning": "Phải",
-            "EngSub": "Used to say that something is necessary or very important (sometimes involving a rule or a law)",
-            "VietSub": "Dùng để nói rằng điều gì đó là cần thiết hoặc rất quan trọng (đôi khi liên quan đến một quy tắc hoặc luật lệ)"
+            "EnglishDescription": "Used to say that something is necessary or very important (sometimes involving a rule or a law)",
+            "VietDescription": "Dùng để nói rằng điều gì đó là cần thiết hoặc rất quan trọng (đôi khi liên quan đến một quy tắc hoặc luật lệ)"
         },
         {
             "ID": 26,
             "WordName": "Natural",
             "VietMeaning": "Tự nhiên",
-            "EngSub": "Existing in nature; not made or caused by humans",
-            "VietSub": "Tồn tại trong tự nhiên; không được tạo ra hoặc gây ra bởi con người"
+            "EnglishDescription": "Existing in nature; not made or caused by humans",
+            "VietDescription": "Tồn tại trong tự nhiên; không được tạo ra hoặc gây ra bởi con người"
         },
         {
             "ID": 27,
             "WordName": "Nurse",
             "VietMeaning": "Y tá",
-            "EngSub": "A person whose job is to take care of sick or injured people, usually in a hospital",
-            "VietSub": "Người có công việc chăm sóc người bệnh hoặc người bị thương, thường là ở bệnh viện"
+            "EnglishDescription": "A person whose job is to take care of sick or injured people, usually in a hospital",
+            "VietDescription": "Người có công việc chăm sóc người bệnh hoặc người bị thương, thường là ở bệnh viện"
         },
         {
             "ID": 28,
             "WordName": "Number",
             "VietMeaning": "Con số",
-            "EngSub": "A word or symbol that represents an amount or a quantity",
-            "VietSub": "Một từ hoặc ký hiệu đại diện cho một số tiền hoặc một số lượng"
+            "EnglishDescription": "A word or symbol that represents an amount or a quantity",
+            "VietDescription": "Một từ hoặc ký hiệu đại diện cho một số tiền hoặc một số lượng"
         },
         {
             "ID": 29,
             "WordName": "O'clock",
             "VietMeaning": "Đồng hồ",
-            "EngSub": "Used with the numbers 1 to 12 when telling the time, to mean an exact hour",
-            "VietSub": "Được sử dụng với các số từ 1 đến 12 khi nói thời gian, có nghĩa là giờ chính xác"
+            "EnglishDescription": "Used with the numbers 1 to 12 when telling the time, to mean an exact hour",
+            "VietDescription": "Được sử dụng với các số từ 1 đến 12 khi nói thời gian, có nghĩa là giờ chính xác"
         },
         {
             "ID": 30,
             "WordName": "Own",
             "VietMeaning": "Sở hữu",
-            "EngSub": "Used to emphasize that something belongs to or is connected with somebody",
-            "VietSub": "Được sử dụng để nhấn mạnh rằng một cái gì đó thuộc về hoặc được kết nối với ai đó"
+            "EnglishDescription": "Used to emphasize that something belongs to or is connected with somebody",
+            "VietDescription": "Được sử dụng để nhấn mạnh rằng một cái gì đó thuộc về hoặc được kết nối với ai đó"
         },
         {
             "ID": 31,
             "WordName": "Page",
             "VietMeaning": "Trang",
-            "EngSub": "One side or both sides of a sheet of paper in a book, magazine, etc.",
-            "VietSub": "Một mặt hoặc cả hai mặt của tờ giấy trong sách, tạp chí, v.v."
+            "EnglishDescription": "One side or both sides of a sheet of paper in a book, magazine, etc.",
+            "VietDescription": "Một mặt hoặc cả hai mặt của tờ giấy trong sách, tạp chí, v.v."
         },
         {
             "ID": 32,
             "WordName": "Put",
             "VietMeaning": "Đặt",
-            "EngSub": "To move something into a particular place or position",
-            "VietSub": "Để di chuyển một cái gì đó vào một nơi hoặc vị trí cụ thể"
+            "EnglishDescription": "To move something into a particular place or position",
+            "VietDescription": "Để di chuyển một cái gì đó vào một nơi hoặc vị trí cụ thể"
         },
         {
             "ID": 33,
             "WordName": "Quarter",
             "VietMeaning": "Một phần tư",
-            "EngSub": "One of four equal parts of something",
-            "VietSub": "Một trong bốn phần bằng nhau của một cái gì đó"
+            "EnglishDescription": "One of four equal parts of something",
+            "VietDescription": "Một trong bốn phần bằng nhau của một cái gì đó"
         },
         {
             "ID": 34,
             "WordName": "Quite",
             "VietMeaning": "Khá",
-            "EngSub": "To some degree",
-            "VietSub": "Đến một mức độ nào"
+            "EnglishDescription": "To some degree",
+            "VietDescription": "Đến một mức độ nào"
         },
         {
             "ID": 35,
             "WordName": "Radio",
             "VietMeaning": "Đài",
-            "EngSub": "The activity of broadcasting programmes for people to listen to; the programmes that are broadcast",
-            "VietSub": "Hoạt động phát sóng các chương trình cho người dân nghe; các chương trình được phát sóng"
+            "EnglishDescription": "The activity of broadcasting programmes for people to listen to; the programmes that are broadcast",
+            "VietDescription": "Hoạt động phát sóng các chương trình cho người dân nghe; các chương trình được phát sóng"
         },
         {
             "ID": 36,
             "WordName": "Run",
             "VietMeaning": "Chạy",
-            "EngSub": "To move using your legs, going faster than when you walk",
-            "VietSub": "Di chuyển bằng chân, đi nhanh hơn khi đi bộ"
+            "EnglishDescription": "To move using your legs, going faster than when you walk",
+            "VietDescription": "Di chuyển bằng chân, đi nhanh hơn khi đi bộ"
         },
         {
             "ID": 37,
             "WordName": "Sad",
             "VietMeaning": "Buồn",
-            "EngSub": "Unhappy or showing unhappiness",
-            "VietSub": "Không vui hoặc thể hiện sự bất hạnh"
+            "EnglishDescription": "Unhappy or showing unhappiness",
+            "VietDescription": "Không vui hoặc thể hiện sự bất hạnh"
         },
         {
             "ID": 38,
             "WordName": "Swimming",
             "VietMeaning": "Bơi lội",
-            "EngSub": "The sport or activity of swimming",
-            "VietSub": "Môn thể thao hoặc hoạt động bơi lội"
+            "EnglishDescription": "The sport or activity of swimming",
+            "VietDescription": "Môn thể thao hoặc hoạt động bơi lội"
         },
         {
             "ID": 39,
             "WordName": "T-shirt",
             "VietMeaning": "Áo thun",
-            "EngSub": "An informal shirt, usually with short sleeves (= arms) no collar or buttons, or just a few buttons at the top",
-            "VietSub": "Một chiếc áo sơ mi không trang trọng, thường có tay áo ngắn (= cánh tay) không có cổ hoặc nút, hoặc chỉ có một vài nút ở trên cùng"
+            "EnglishDescription": "An informal shirt, usually with short sleeves (= arms) no collar or buttons, or just a few buttons at the top",
+            "VietDescription": "Một chiếc áo sơ mi không trang trọng, thường có tay áo ngắn (= cánh tay) không có cổ hoặc nút, hoặc chỉ có một vài nút ở trên cùng"
         },
         {
             "ID": 40,
             "WordName": "Type",
             "VietMeaning": "Kiểu",
-            "EngSub": "A class or group of people or things that share particular qualities or features and are part of a larger group; a kind or sort",
-            "VietSub": "Một tầng lớp hoặc một nhóm người hoặc những thứ có chung những phẩm chất hoặc đặc điểm cụ thể và là một phần của một nhóm lớn hơn; một loại hoặc một loại"
+            "EnglishDescription": "A class or group of people or things that share particular qualities or features and are part of a larger group; a kind or sort",
+            "VietDescription": "Một tầng lớp hoặc một nhóm người hoặc những thứ có chung những phẩm chất hoặc đặc điểm cụ thể và là một phần của một nhóm lớn hơn; một loại hoặc một loại"
         },
         {
             "ID": 41,
             "WordName": "Umbrella",
             "VietMeaning": "Chiếc dù",
-            "EngSub": "An object with a round folding frame of long, straight pieces of metal covered with material, that you use to protect yourself from the rain or from hot sun",
-            "VietSub": "Một vật có khung gấp tròn bằng các miếng kim loại dài, thẳng được phủ bằng vật liệu mà bạn dùng để bảo vệ mình khỏi mưa hoặc nắng nóng"
+            "EnglishDescription": "An object with a round folding frame of long, straight pieces of metal covered with material, that you use to protect yourself from the rain or from hot sun",
+            "VietDescription": "Một vật có khung gấp tròn bằng các miếng kim loại dài, thẳng được phủ bằng vật liệu mà bạn dùng để bảo vệ mình khỏi mưa hoặc nắng nóng"
         },
         {
             "ID": 42,
             "WordName": "Usually",
             "VietMeaning": "Thường xuyên",
-            "EngSub": "In the way that is usual or normal; most often",
-            "VietSub": "Theo cách thông thường hoặc bình thường; thường xuyên nhất"
+            "EnglishDescription": "In the way that is usual or normal; most often",
+            "VietDescription": "Theo cách thông thường hoặc bình thường; thường xuyên nhất"
         },
         {
             "ID": 43,
             "WordName": "Vacation",
             "VietMeaning": "Kì nghỉ",
-            "EngSub": "A period of time spent travelling or resting away from home",
-            "VietSub": "Một khoảng thời gian dành cho việc đi du lịch hoặc nghỉ ngơi xa nhà"
+            "EnglishDescription": "A period of time spent travelling or resting away from home",
+            "VietDescription": "Một khoảng thời gian dành cho việc đi du lịch hoặc nghỉ ngơi xa nhà"
         },
         {
             "ID": 44,
             "WordName": "Visitor",
             "VietMeaning": "Khách thăm quan",
-            "EngSub": "A person who visits a person or place",
-            "VietSub": "Một người đến thăm một người hoặc địa điểm"
+            "EnglishDescription": "A person who visits a person or place",
+            "VietDescription": "Một người đến thăm một người hoặc địa điểm"
         },
         {
             "ID": 45,
             "WordName": "Wait",
             "VietMeaning": "Chờ đợi",
-            "EngSub": "To stay where you are or delay doing something until somebody/something comes or something happens",
-            "VietSub": "Ở yên tại chỗ hoặc trì hoãn làm điều gì đó cho đến khi ai đó/điều gì đó đến hoặc điều gì đó xảy ra"
+            "EnglishDescription": "To stay where you are or delay doing something until somebody/something comes or something happens",
+            "VietDescription": "Ở yên tại chỗ hoặc trì hoãn làm điều gì đó cho đến khi ai đó/điều gì đó đến hoặc điều gì đó xảy ra"
         },
         {
             "ID": 46,
             "WordName": "Wrong",
             "VietMeaning": "Sai",
-            "EngSub": "Not right or not correct",
-            "VietSub": "Không đúng hoặc không chính xác"
+            "EnglishDescription": "Not right or not correct",
+            "VietDescription": "Không đúng hoặc không chính xác"
         },
         {
             "ID": 47,
             "WordName": "Year",
             "VietMeaning": "Năm",
-            "EngSub": "The period from 1 january to 31 december, that is 365 or 366 days, divided into 12 months",
-            "VietSub": "Khoảng thời gian từ ngày 1 tháng 1 đến ngày 31 tháng 12, tức là 365 hoặc 366 ngày, chia thành 12 tháng"
+            "EnglishDescription": "The period from 1 january to 31 december, that is 365 or 366 days, divided into 12 months",
+            "VietDescription": "Khoảng thời gian từ ngày 1 tháng 1 đến ngày 31 tháng 12, tức là 365 hoặc 366 ngày, chia thành 12 tháng"
         },
         {
             "ID": 48,
             "WordName": "Yourself",
             "VietMeaning": "Bản thân bạn",
-            "EngSub": "Used when the person or people being spoken to both cause and are affected by an action",
-            "VietSub": "Được sử dụng khi người hoặc những người được nói đến vừa gây ra vừa bị ảnh hưởng bởi một hành động"
+            "EnglishDescription": "Used when the person or people being spoken to both cause and are affected by an action",
+            "VietDescription": "Được sử dụng khi người hoặc những người được nói đến vừa gây ra vừa bị ảnh hưởng bởi một hành động"
         }
 ]

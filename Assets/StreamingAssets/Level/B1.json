@@ -3,322 +3,322 @@
             "ID": 0,
             "WordName": "Absolutely",
             "VietMeaning": "Tuyệt đối",
-            "EngSub": "Used to emphasize that something is completely true",
-            "VietSub": "Được sử dụng để nhấn mạnh rằng một cái gì đó là hoàn toàn đúng sự thật"
+            "EnglishDescription": "Used to emphasize that something is completely true",
+            "VietDescription": "Được sử dụng để nhấn mạnh rằng một cái gì đó là hoàn toàn đúng sự thật"
         },
         {
             "ID": 1,
             "WordName": "Aware",
             "VietMeaning": "Nhận thức",
-            "EngSub": "Knowing or realizing something",
-            "VietSub": "Biết hoặc nhận ra điều gì đó"
+            "EnglishDescription": "Knowing or realizing something",
+            "VietDescription": "Biết hoặc nhận ra điều gì đó"
         },
         {
             "ID": 2,
             "WordName": "Backwards",
             "VietMeaning": "Ngược",
-            "EngSub": "Towards a place or position that is behind",
-            "VietSub": "Hướng tới một địa điểm hoặc vị trí ở phía sau"
+            "EnglishDescription": "Towards a place or position that is behind",
+            "VietDescription": "Hướng tới một địa điểm hoặc vị trí ở phía sau"
         },
         {
             "ID": 3,
             "WordName": "By",
             "VietMeaning": "Qua",
-            "EngSub": "Past",
-            "VietSub": "Quá khứ"
+            "EnglishDescription": "Past",
+            "VietDescription": "Quá khứ"
         },
         {
             "ID": 4,
             "WordName": "Calm",
             "VietMeaning": "Điềm tĩnh",
-            "EngSub": "Not excited, nervous or upset",
-            "VietSub": "Không hào hứng, lo lắng hay buồn bã"
+            "EnglishDescription": "Not excited, nervous or upset",
+            "VietDescription": "Không hào hứng, lo lắng hay buồn bã"
         },
         {
             "ID": 5,
             "WordName": "Curtain",
             "VietMeaning": "Tấm màn",
-            "EngSub": "A piece of cloth that is hung to cover a window",
-            "VietSub": "Một mảnh vải được treo để che cửa sổ"
+            "EnglishDescription": "A piece of cloth that is hung to cover a window",
+            "VietDescription": "Một mảnh vải được treo để che cửa sổ"
         },
         {
             "ID": 6,
             "WordName": "Damage",
             "VietMeaning": "Hư hại",
-            "EngSub": "Physical harm caused to something which makes it less attractive, useful or valuable",
-            "VietSub": "Tổn hại vật chất gây ra cho thứ gì đó khiến nó kém hấp dẫn, hữu ích hoặc có giá trị"
+            "EnglishDescription": "Physical harm caused to something which makes it less attractive, useful or valuable",
+            "VietDescription": "Tổn hại vật chất gây ra cho thứ gì đó khiến nó kém hấp dẫn, hữu ích hoặc có giá trị"
         },
         {
             "ID": 7,
             "WordName": "Duty",
             "VietMeaning": "Sứ mệnh",
-            "EngSub": "Something that you feel you have to do because it is your moral or legal responsibility",
-            "VietSub": "Một cái gì đó mà bạn cảm thấy bạn phải làm bởi vì đó là trách nhiệm đạo đức hoặc pháp lý của bạn"
+            "EnglishDescription": "Something that you feel you have to do because it is your moral or legal responsibility",
+            "VietDescription": "Một cái gì đó mà bạn cảm thấy bạn phải làm bởi vì đó là trách nhiệm đạo đức hoặc pháp lý của bạn"
         },
         {
             "ID": 8,
             "WordName": "Earthquake",
             "VietMeaning": "Động đất",
-            "EngSub": "A sudden, violent shaking of the earth’s surface",
-            "VietSub": "Sự rung chuyển đột ngột và dữ dội của bề mặt trái đất"
+            "EnglishDescription": "A sudden, violent shaking of the earth’s surface",
+            "VietDescription": "Sự rung chuyển đột ngột và dữ dội của bề mặt trái đất"
         },
         {
             "ID": 9,
             "WordName": "Extra",
             "VietMeaning": "Thêm",
-            "EngSub": "A thing that is added to something that is not usual, standard or necessary and that costs more",
-            "VietSub": "Một thứ được thêm vào một cái gì đó không bình thường, tiêu chuẩn hoặc cần thiết và tốn kém hơn"
+            "EnglishDescription": "A thing that is added to something that is not usual, standard or necessary and that costs more",
+            "VietDescription": "Một thứ được thêm vào một cái gì đó không bình thường, tiêu chuẩn hoặc cần thiết và tốn kém hơn"
         },
         {
             "ID": 10,
             "WordName": "Fancy",
             "VietMeaning": "Đặc biệt",
-            "EngSub": "Unusually complicated, often in an unnecessary way; intended to impress other people",
-            "VietSub": "Phức tạp một cách bất thường, thường theo cách không cần thiết; nhằm mục đích gây ấn tượng với người khác"
+            "EnglishDescription": "Unusually complicated, often in an unnecessary way; intended to impress other people",
+            "VietDescription": "Phức tạp một cách bất thường, thường theo cách không cần thiết; nhằm mục đích gây ấn tượng với người khác"
         },
         {
             "ID": 11,
             "WordName": "Function",
             "VietMeaning": "Chức năng",
-            "EngSub": "A special activity or purpose of a person or thing",
-            "VietSub": "Một hoạt động hoặc mục đích đặc biệt của một người hoặc vật"
+            "EnglishDescription": "A special activity or purpose of a person or thing",
+            "VietDescription": "Một hoạt động hoặc mục đích đặc biệt của một người hoặc vật"
         },
         {
             "ID": 12,
             "WordName": "Garage",
             "VietMeaning": "Ga-ra",
-            "EngSub": "A building for keeping one or more cars or other vehicles in",
-            "VietSub": "Một tòa nhà để giữ một hoặc nhiều ô tô hoặc các phương tiện khác"
+            "EnglishDescription": "A building for keeping one or more cars or other vehicles in",
+            "VietDescription": "Một tòa nhà để giữ một hoặc nhiều ô tô hoặc các phương tiện khác"
         },
         {
             "ID": 13,
             "WordName": "Guilty",
             "VietMeaning": "Tội lỗi",
-            "EngSub": "Feeling ashamed because you have done something that you know is wrong or have not done something that you should have done",
-            "VietSub": "Cảm thấy xấu hổ vì đã làm điều gì đó mà bạn biết là sai hoặc đã không làm điều gì đó mà lẽ ra bạn phải làm"
+            "EnglishDescription": "Feeling ashamed because you have done something that you know is wrong or have not done something that you should have done",
+            "VietDescription": "Cảm thấy xấu hổ vì đã làm điều gì đó mà bạn biết là sai hoặc đã không làm điều gì đó mà lẽ ra bạn phải làm"
         },
         {
             "ID": 14,
             "WordName": "Hand",
             "VietMeaning": "Trao",
-            "EngSub": "To pass or give something to somebody",
-            "VietSub": "Chuyển hoặc đưa cái gì đó cho ai đó"
+            "EnglishDescription": "To pass or give something to somebody",
+            "VietDescription": "Chuyển hoặc đưa cái gì đó cho ai đó"
         },
         {
             "ID": 15,
             "WordName": "Hurry",
             "VietMeaning": "Bước mau",
-            "EngSub": "To move or act quickly because there is not much time",
-            "VietSub": "Di chuyển hoặc hành động nhanh chóng vì không có nhiều thời gian"
+            "EnglishDescription": "To move or act quickly because there is not much time",
+            "VietDescription": "Di chuyển hoặc hành động nhanh chóng vì không có nhiều thời gian"
         },
         {
             "ID": 16,
             "WordName": "Identity",
             "VietMeaning": "Danh tính",
-            "EngSub": "Who or what somebody/something is",
-            "VietSub": "Ai hoặc cái gì ai đó/cái gì đó là"
+            "EnglishDescription": "Who or what somebody/something is",
+            "VietDescription": "Ai hoặc cái gì ai đó/cái gì đó là"
         },
         {
             "ID": 17,
             "WordName": "Judge",
             "VietMeaning": "Phán xét",
-            "EngSub": "To form an opinion about somebody/something, based on the information you have",
-            "VietSub": "Hình thành quan điểm về ai/cái gì, dựa trên thông tin bạn có"
+            "EnglishDescription": "To form an opinion about somebody/something, based on the information you have",
+            "VietDescription": "Hình thành quan điểm về ai/cái gì, dựa trên thông tin bạn có"
         },
         {
             "ID": 18,
             "WordName": "Keen",
             "VietMeaning": "Mong muốn",
-            "EngSub": "Wanting to do something or wanting something to happen very much",
-            "VietSub": "Muốn làm điều gì đó hoặc rất muốn điều gì đó xảy ra"
+            "EnglishDescription": "Wanting to do something or wanting something to happen very much",
+            "VietDescription": "Muốn làm điều gì đó hoặc rất muốn điều gì đó xảy ra"
         },
         {
             "ID": 19,
             "WordName": "Kiss",
             "VietMeaning": "Hôn",
-            "EngSub": "To touch somebody with your lips as a sign of love or sexual desire or when saying hello or goodbye",
-            "VietSub": "Chạm vào ai đó bằng môi của bạn như một dấu hiệu của tình yêu hoặc ham muốn tình dục hoặc khi nói lời chào hay lời tạm biệt"
+            "EnglishDescription": "To touch somebody with your lips as a sign of love or sexual desire or when saying hello or goodbye",
+            "VietDescription": "Chạm vào ai đó bằng môi của bạn như một dấu hiệu của tình yêu hoặc ham muốn tình dục hoặc khi nói lời chào hay lời tạm biệt"
         },
         {
             "ID": 20,
             "WordName": "Laboratory",
             "VietMeaning": "Phòng thí nghiệm",
-            "EngSub": "A room or building used for scientific research, experiments, testing, etc",
-            "VietSub": "Một căn phòng hoặc tòa nhà được sử dụng để nghiên cứu khoa học, thí nghiệm, thử nghiệm, v.v."
+            "EnglishDescription": "A room or building used for scientific research, experiments, testing, etc",
+            "VietDescription": "Một căn phòng hoặc tòa nhà được sử dụng để nghiên cứu khoa học, thí nghiệm, thử nghiệm, v.v."
         },
         {
             "ID": 21,
             "WordName": "Loss",
             "VietMeaning": "Sự mất mát",
-            "EngSub": "The state of no longer having something or as much of something; the process that leads to this",
-            "VietSub": "Trạng thái không còn có thứ gì đó hoặc nhiều thứ gì đó; quá trình dẫn đến điều này"
+            "EnglishDescription": "The state of no longer having something or as much of something; the process that leads to this",
+            "VietDescription": "Trạng thái không còn có thứ gì đó hoặc nhiều thứ gì đó; quá trình dẫn đến điều này"
         },
         {
             "ID": 22,
             "WordName": "Magic",
             "VietMeaning": "Ma thuật",
-            "EngSub": "Having or using special powers to make impossible things happen or seem to happen",
-            "VietSub": "Có hoặc sử dụng sức mạnh đặc biệt để biến những điều không thể xảy ra hoặc dường như xảy ra"
+            "EnglishDescription": "Having or using special powers to make impossible things happen or seem to happen",
+            "VietDescription": "Có hoặc sử dụng sức mạnh đặc biệt để biến những điều không thể xảy ra hoặc dường như xảy ra"
         },
         {
             "ID": 23,
             "WordName": "Mystery",
             "VietMeaning": "Điều bí ẩn",
-            "EngSub": "Something that is difficult to understand or to explain",
-            "VietSub": "Cái gì đó khó hiểu hoặc khó giải thích"
+            "EnglishDescription": "Something that is difficult to understand or to explain",
+            "VietDescription": "Cái gì đó khó hiểu hoặc khó giải thích"
         },
         {
             "ID": 24,
             "WordName": "Nall",
             "VietMeaning": "Móng tay",
-            "EngSub": "The thin hard layer covering the outer tip of the fingers or toes",
-            "VietSub": "Lớp cứng mỏng bao phủ đầu ngoài của ngón tay hoặc ngón chân"
+            "EnglishDescription": "The thin hard layer covering the outer tip of the fingers or toes",
+            "VietDescription": "Lớp cứng mỏng bao phủ đầu ngoài của ngón tay hoặc ngón chân"
         },
         {
             "ID": 25,
             "WordName": "Nuclear",
             "VietMeaning": "Hạt nhân",
-            "EngSub": "Using, producing or resulting from nuclear energy",
-            "VietSub": "Sử dụng, sản xuất hoặc tạo ra từ năng lượng hạt nhân"
+            "EnglishDescription": "Using, producing or resulting from nuclear energy",
+            "VietDescription": "Sử dụng, sản xuất hoặc tạo ra từ năng lượng hạt nhân"
         },
         {
             "ID": 26,
             "WordName": "Odd",
             "VietMeaning": "Kỳ dị",
-            "EngSub": "Strange or unusual",
-            "VietSub": "Lạ hoặc bất thường"
+            "EnglishDescription": "Strange or unusual",
+            "VietDescription": "Lạ hoặc bất thường"
         },
         {
             "ID": 27,
             "WordName": "Outdoors",
             "VietMeaning": "Ngoài trời",
-            "EngSub": "Outside, rather than in a building",
-            "VietSub": "Bên ngoài, thay vì trong một tòa nhà"
+            "EnglishDescription": "Outside, rather than in a building",
+            "VietDescription": "Bên ngoài, thay vì trong một tòa nhà"
         },
         {
             "ID": 28,
             "WordName": "Painful",
             "VietMeaning": "Khó chịu",
-            "EngSub": "Causing you pain",
-            "VietSub": "Khiến bạn đau đớn"
+            "EnglishDescription": "Causing you pain",
+            "VietDescription": "Khiến bạn đau đớn"
         },
         {
             "ID": 29,
             "WordName": "Punishment",
             "VietMeaning": "Hình phạt",
-            "EngSub": "An act or a way of punishing somebody",
-            "VietSub": "Một hành động hoặc một cách trừng phạt ai đó"
+            "EnglishDescription": "An act or a way of punishing somebody",
+            "VietDescription": "Một hành động hoặc một cách trừng phạt ai đó"
         },
         {
             "ID": 30,
             "WordName": "Queue",
             "VietMeaning": "Đoàn người/xe nối nhau",
-            "EngSub": "A line of people, cars, etc. Waiting for something or to do something",
-            "VietSub": "Một dòng người, ô tô, v.v. Đang chờ đợi điều gì đó hoặc làm điều gì đó"
+            "EnglishDescription": "A line of people, cars, etc. Waiting for something or to do something",
+            "VietDescription": "Một dòng người, ô tô, v.v. Đang chờ đợi điều gì đó hoặc làm điều gì đó"
         },
         {
             "ID": 31,
             "WordName": "Quote",
             "VietMeaning": "Trính dẫn",
-            "EngSub": "To repeat the exact words that another person has said or written",
-            "VietSub": "Lặp lại chính xác những từ mà người khác đã nói hoặc viết"
+            "EnglishDescription": "To repeat the exact words that another person has said or written",
+            "VietDescription": "Lặp lại chính xác những từ mà người khác đã nói hoặc viết"
         },
         {
             "ID": 32,
             "WordName": "Racing",
             "VietMeaning": "Cuộc đua",
-            "EngSub": "The sport of racing horses",
-            "VietSub": "Môn thể thao đua ngựa"
+            "EnglishDescription": "The sport of racing horses",
+            "VietDescription": "Môn thể thao đua ngựa"
         },
         {
             "ID": 33,
             "WordName": "Rule",
             "VietMeaning": "Luật lệ",
-            "EngSub": "To control and have authority over a country, a group of people, etc.",
-            "VietSub": "Để kiểm soát và có thẩm quyền đối với một quốc gia, một nhóm người, v.v"
+            "EnglishDescription": "To control and have authority over a country, a group of people, etc.",
+            "VietDescription": "Để kiểm soát và có thẩm quyền đối với một quốc gia, một nhóm người, v.v"
         },
         {
             "ID": 34,
             "WordName": "Sail ",
             "VietMeaning": "Cánh buồm",
-            "EngSub": "A sheet of strong cloth which the wind blows against to make a boat or ship travel through the water",
-            "VietSub": "Một tấm vải chắc chắn mà gió thổi vào để làm cho thuyền hoặc tàu di chuyển trên mặt nước"
+            "EnglishDescription": "A sheet of strong cloth which the wind blows against to make a boat or ship travel through the water",
+            "VietDescription": "Một tấm vải chắc chắn mà gió thổi vào để làm cho thuyền hoặc tàu di chuyển trên mặt nước"
         },
         {
             "ID": 35,
             "WordName": "Symptom",
             "VietMeaning": "Triệu chứng",
-            "EngSub": "A change in your body or mind that shows that you are not healthy",
-            "VietSub": "Một sự thay đổi trong cơ thể hoặc tâm trí của bạn cho thấy bạn không khỏe mạnh"
+            "EnglishDescription": "A change in your body or mind that shows that you are not healthy",
+            "VietDescription": "Một sự thay đổi trong cơ thể hoặc tâm trí của bạn cho thấy bạn không khỏe mạnh"
         },
         {
             "ID": 36,
             "WordName": "Talent",
             "VietMeaning": "Tài năng",
-            "EngSub": "A natural ability to do something well",
-            "VietSub": "Một khả năng tự nhiên để làm một cái gì đó tốt"
+            "EnglishDescription": "A natural ability to do something well",
+            "VietDescription": "Một khả năng tự nhiên để làm một cái gì đó tốt"
         },
         {
             "ID": 37,
             "WordName": "Tyre",
             "VietMeaning": "Lốp xe",
-            "EngSub": "A thick rubber ring that fits around the edge of a wheel of a car, bicycle, etc.",
-            "VietSub": "Một vòng cao su dày vừa khít với mép bánh xe ô tô, xe đạp, v.v."
+            "EnglishDescription": "A thick rubber ring that fits around the edge of a wheel of a car, bicycle, etc.",
+            "VietDescription": "Một vòng cao su dày vừa khít với mép bánh xe ô tô, xe đạp, v.v."
         },
         {
             "ID": 38,
             "WordName": "Ugly",
             "VietMeaning": "Xấu xí",
-            "EngSub": "Unpleasant to look at",
-            "VietSub": "Khó chịu khi nhìn vào"
+            "EnglishDescription": "Unpleasant to look at",
+            "VietDescription": "Khó chịu khi nhìn vào"
         },
         {
             "ID": 39,
             "WordName": "Used",
             "VietMeaning": "Thường dùng",
-            "EngSub": "Familiar with something because you do it or experience it often",
-            "VietSub": "Quen thuộc với cái gì đó bởi vì bạn làm nó hoặc trải nghiệm nó thường xuyên"
+            "EnglishDescription": "Familiar with something because you do it or experience it often",
+            "VietDescription": "Quen thuộc với cái gì đó bởi vì bạn làm nó hoặc trải nghiệm nó thường xuyên"
         },
         {
             "ID": 40,
             "WordName": "Valuable",
             "VietMeaning": "Quý báu",
-            "EngSub": "Worth a lot of money",
-            "VietSub": "Đáng giá rất nhiều tiền"
+            "EnglishDescription": "Worth a lot of money",
+            "VietDescription": "Đáng giá rất nhiều tiền"
         },
         {
             "ID": 41,
             "WordName": "Vote",
             "VietMeaning": "Bỏ phiếu",
-            "EngSub": "To show formally by marking a paper, raising your hand, using a voting machine, etc. Which person you want to win an election, or which plan or idea you support",
-            "VietSub": "Thể hiện chính thức bằng cách đánh dấu một tờ giấy, giơ tay, sử dụng máy bỏ phiếu, v.v. Bạn muốn thắng ai trong cuộc bầu cử, hoặc bạn ủng hộ kế hoạch hay ý tưởng nào"
+            "EnglishDescription": "To show formally by marking a paper, raising your hand, using a voting machine, etc. Which person you want to win an election, or which plan or idea you support",
+            "VietDescription": "Thể hiện chính thức bằng cách đánh dấu một tờ giấy, giơ tay, sử dụng máy bỏ phiếu, v.v. Bạn muốn thắng ai trong cuộc bầu cử, hoặc bạn ủng hộ kế hoạch hay ý tưởng nào"
         },
         {
             "ID": 42,
             "WordName": "Warm",
             "VietMeaning": "Làm cho ấm",
-            "EngSub": "To make something/somebody warm or warmer; to become warm or warmer",
-            "VietSub": "Làm cho cái gì/ai đó ấm áp hơn; trở nên ấm áp hoặc ấm hơn"
+            "EnglishDescription": "To make something/somebody warm or warmer; to become warm or warmer",
+            "VietDescription": "Làm cho cái gì/ai đó ấm áp hơn; trở nên ấm áp hoặc ấm hơn"
         },
         {
             "ID": 43,
             "WordName": "Wrong",
             "VietMeaning": "Sai",
-            "EngSub": "In a way that produces a result that is not correct or that you do not want",
-            "VietSub": "Theo cách tạo ra kết quả không đúng hoặc bạn không mong muốn"
+            "EnglishDescription": "In a way that produces a result that is not correct or that you do not want",
+            "VietDescription": "Theo cách tạo ra kết quả không đúng hoặc bạn không mong muốn"
         },
         {
             "ID": 44,
             "WordName": "Yard",
             "VietMeaning": "Sân",
-            "EngSub": "A piece of land next to or around your house where you can grow flowers, fruit, vegetables, etc.",
-            "VietSub": "Một mảnh đất bên cạnh hoặc xung quanh ngôi nhà của bạn, nơi bạn có thể trồng hoa, trái cây, rau, v.v."
+            "EnglishDescription": "A piece of land next to or around your house where you can grow flowers, fruit, vegetables, etc.",
+            "VietDescription": "Một mảnh đất bên cạnh hoặc xung quanh ngôi nhà của bạn, nơi bạn có thể trồng hoa, trái cây, rau, v.v."
         },
         {
             "ID": 45,
             "WordName": "Youth",
             "VietMeaning": "Tuổi trẻ",
-            "EngSub": "The time of life when a person is young, especially the time before a child becomes an adult",
-            "VietSub": "Thời gian của cuộc đời khi một người còn trẻ, đặc biệt là thời gian trước khi một đứa trẻ trở thành người lớn"
+            "EnglishDescription": "The time of life when a person is young, especially the time before a child becomes an adult",
+            "VietDescription": "Thời gian của cuộc đời khi một người còn trẻ, đặc biệt là thời gian trước khi một đứa trẻ trở thành người lớn"
         }
 ]
