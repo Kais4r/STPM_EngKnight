@@ -94,10 +94,15 @@ public class BattleDataManager : MonoBehaviour
 
             randomIndex = Random.Range(0, WordsList.Count);
             randomWord = WordsList[randomIndex];
-            WrongAnswerWordsList ??= new List<EnglishWord>()
-            { 
-                randomWord
-            };
+            if (WrongAnswerWordsList == null)
+            {
+                while(randomWord == WordToGuess)
+                {
+                    randomIndex = Random.Range(0, WordsList.Count);
+                    randomWord = WordsList[randomIndex];
+                }
+                WrongAnswerWordsList = new List<EnglishWord> {  randomWord };
+            }
             for (int i = WrongAnswerWordsList.Count;i < 3;i++)
             {
                 while (randomWord == WordToGuess || WrongAnswerWordsList.Contains(randomWord))

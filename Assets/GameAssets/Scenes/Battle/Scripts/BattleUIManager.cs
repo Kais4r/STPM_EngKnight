@@ -32,6 +32,9 @@ public class BattleUIManager : MonoBehaviour
     //PlayerAnswerPanel
     public List<TextMeshProUGUI> answerButtons;
 
+    // GameEndPanel
+    public GameObject endGamePanel;
+
     public void UpdateQuestionAndAnswer(EnglishWord wordToGuess)
     {
         enemyChat.text = wordToGuess.WordName;

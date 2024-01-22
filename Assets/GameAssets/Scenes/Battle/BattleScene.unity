@@ -776,6 +776,9 @@ MonoBehaviour:
   _battleDataManager: {fileID: 962140084}
   _battleUIManager: {fileID: 1318320036}
   _playerAnimController: {fileID: 1468612811}
+  _enemyAnimController: {fileID: 62644699}
+  _playerIamgeColor: {r: 0, g: 0, b: 0, a: 0}
+  _enemyImageColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &246659704
 GameObject:
   m_ObjectHideFlags: 0
@@ -5087,6 +5090,7 @@ MonoBehaviour:
   - {fileID: 1168297203}
   - {fileID: 1658748865}
   - {fileID: 476451245}
+  endGamePanel: {fileID: 120177993}
 --- !u!1 &1331551379
 GameObject:
   m_ObjectHideFlags: 0

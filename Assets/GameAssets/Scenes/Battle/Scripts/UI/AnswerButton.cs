@@ -55,7 +55,7 @@ public class AnswerButton : MonoBehaviour
             }
             else
             {
-                StartCoroutine(ShowAnswer(new Color32(255, 105, 105, 255), enemyText, "E:It is: " + correctVietMeaning));
+                StartCoroutine(ShowAnswer(new Color32(255, 105, 105, 255), enemyText, "E:No: " + correctVietMeaning));
                 return false;
 
                 // !!! code to write: use unity event to trigger if the False answer is selected, the button with the right answer go green for 0.5 second;
