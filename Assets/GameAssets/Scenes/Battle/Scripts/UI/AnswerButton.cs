@@ -46,16 +46,16 @@ public class AnswerButton : MonoBehaviour
         // will be differnt for differnt game mode
         if (_battleSceneManager.gameMode == GameMode.EngLishToViet)
         {
+            string correctVietMeaning = _battleSceneManager._battleDataManager.WordToGuess.VietMeaning;
             // right answer
-            if (_answerText.text == _battleSceneManager._battleDataManager.WordToGuess.VietMeaning)
+            if (_answerText.text == correctVietMeaning)
             {
                 StartCoroutine(ShowAnswer(new Color32(77, 255, 0, 255), enemyText, "E:Correct."));
                 return true;
             }
             else
             {
-                _battleSceneManager._battleUIManager.enemyChat.text = "E:Wrong noob";
-                StartCoroutine(ShowAnswer(new Color32(255, 105, 105, 255), enemyText, "E:Wrong answer."));
+                StartCoroutine(ShowAnswer(new Color32(255, 105, 105, 255), enemyText, "E:It is: " + correctVietMeaning));
                 return false;
 
                 // !!! code to write: use unity event to trigger if the False answer is selected, the button with the right answer go green for 0.5 second;
@@ -79,4 +79,5 @@ public class AnswerButton : MonoBehaviour
 
         textMeshProUGUI.text = textToShow;
     }
+
 }

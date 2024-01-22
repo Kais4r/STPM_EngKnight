@@ -1,10 +1,7 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using UnityEngine;
-using UnityEngine.VFX;
 
 public enum BattleState
 {
@@ -13,8 +10,8 @@ public enum BattleState
     EnemyTurn,
     PlayerTurn,
     SystemProcessPlayerTurnResult,
+    CharacterAction,
     SpawnNextEnemy,
-    CharacterAction
 }
 
 public enum GameMode
@@ -36,7 +33,11 @@ public class BattleSceneManager : MonoBehaviour
     public BattleUIManager _battleUIManager;
 
     // Level Info
-    // public int enemiesNumber = 5;
+    private int remainingEnemiesNumber = 6;
+
+    // Generate enemy and character
+    private Character _player;
+    private Character _enemy;
 
     [SerializeField] private Animator _playerAnimController;
 
@@ -46,27 +47,31 @@ public class BattleSceneManager : MonoBehaviour
     }
     private void Update()
     {
-        if(battleState == BattleState.BattleStart)
+        if (battleState == BattleState.BattleStart)
         {
             //set up database here:
             _battleDataManager.LoadData(streamingAssetdataPath);
-
-            // this will decide who attack first pass from level info, not implement yet
-            battleState = BattleState.DialogRunning;
-            _battleUIManager.enemyChat.text = "E:Let fight noob";
-
             StartCoroutine(SetUpBattle());
         }
-        /*if (battleState == BattleState.EnemyTurn)
+        if (battleState == BattleState.EnemyTurn)
         {
-
-        }*/
+            EnemyAttack();
+        }
     }
 
     private IEnumerator SetUpBattle()
     {
+        // Set up character
+        _player = new("Khoinoob", 1, 5, 100, 0);
+        _enemy = GenerateEnemy();
+        _battleUIManager.SetUpCharacterInfo();
+
+        // this will decide who attack first pass from level info, not implement yet
+        battleState = BattleState.DialogRunning;
+        _battleUIManager.enemyChat.text = "E:Let fight noob";
+
         // wait for dialog running
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
 
         // Set up question depend of game mode
         if (gameMode == GameMode.EngLishToViet)
@@ -99,26 +104,84 @@ public class BattleSceneManager : MonoBehaviour
     public void ProcessPlayerQuizResult(bool result)
     {
         battleState = BattleState.CharacterAction;
+
         if (result == true)
         {
-            Debug.Log("Player attack");
-            StartCoroutine(PlayAttackAnimation(_playerAnimController, "Base Layer.PlayerAttack", BattleState.EnemyTurn,1f));
+            _player.AttackCharacter(_enemy);
+            StartCoroutine(PlayAttackAnimation(_playerAnimController, "Base Layer.PlayerAttack", BattleState.EnemyTurn, 1f));
             // PlayerAttack()
         }
         else
         {
+            _enemy.AttackCharacter(_player);
             Debug.Log("Enemy attack");
-            StartCoroutine(PlayAttackAnimation(_playerAnimController, "Base Layer.PlayerAttack", BattleState.EnemyTurn, 1f));
+            //StartCoroutine(PlayAttackAnimation(_playerAnimController, "Base Layer.PlayerAttack", BattleState.EnemyTurn, 1f));
+            //because there are no enemy attack anim right now so i will just change the state:
+            _battleUIManager.UpdateCombatInfo();
+            battleState = BattleState.EnemyTurn;
             // EnemyAttack()
         }
     }
 
     private IEnumerator PlayAttackAnimation(Animator animator, string animation, BattleState battleStateToChange, float duration)
     {
-        animator.Play(animation,0,0);
+        animator.Play(animation, 0, 0);
         yield return new WaitForSeconds(duration);
+        _battleUIManager.UpdateCombatInfo();
         // i put this line here because if you put this in ProcessPlauerQuizResult, it won't wait and play instantly
         animator.Play("Base Layer.Idle", 0, 0);
         battleState = battleStateToChange;
+    }
+
+    private Character GenerateEnemy()
+    {
+        Character character;
+        if (remainingEnemiesNumber == 1)
+        {
+            // generate the boss
+            character = new("Enemy", 2, 2, 100, 0);
+
+        }
+        else
+        {
+            character = new("Enemy[" + remainingEnemiesNumber + "]", 1, 1, 100, 0);
+        }
+
+        remainingEnemiesNumber--;
+        return character;
+    }
+
+    public Character GetCharacter(string target)
+    {
+        Character result;
+        if (target == "player")
+        {
+            result = _player;
+        }
+        else if (target == "enemy")
+        {
+            result = _enemy;
+        }
+        else
+        {
+            result = new("error getting character", 1, 1, 100, 0);
+        }
+        return result;
+    }
+
+    private void EnemyAttack()
+    {
+        _enemy.AttackCharacter(_player);
+        battleState = BattleState.CharacterAction;
+        StartCoroutine(PlayAttackAnimation(_playerAnimController, "Base Layer.PlayerAttack", BattleState.PlayerTurn, 1f));
+        if (_player.HP <= 0)
+        {
+            Debug.Log("Player die");
+        }
+        //Asking back the player
+        if (gameMode == GameMode.EngLishToViet)
+        {
+            Invoke(nameof(SetUpEnglishToVietQuizQuestion), 1f);
+        }
     }
 }
