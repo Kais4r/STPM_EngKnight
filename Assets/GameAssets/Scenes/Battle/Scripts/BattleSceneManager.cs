@@ -22,6 +22,7 @@ public enum GameMode
     EngLishToViet,
     VietToEnglish,
     EngLishDescriptionToEnglish,
+    VietDescriptionToEnglish,
 }
 
 public class BattleSceneManager : MonoBehaviour
@@ -96,6 +97,10 @@ public class BattleSceneManager : MonoBehaviour
         else if (gameMode == GameMode.EngLishDescriptionToEnglish)
         {
             SetUpEnglishDesToEnglishQuizQuestion();
+        }
+        else if (gameMode == GameMode.VietDescriptionToEnglish)
+        {
+            SetUpVietDesToEnglishQuizQuestion();
         }
         battleState = BattleState.PlayerTurn;
     } 
@@ -215,6 +220,10 @@ public class BattleSceneManager : MonoBehaviour
             {
                 SetUpEnglishDesToEnglishQuizQuestion();
             }
+            else if (gameMode == GameMode.VietDescriptionToEnglish)
+            {
+                SetUpVietDesToEnglishQuizQuestion();
+            }
             battleState = BattleState.PlayerTurn;
         }
     }
@@ -263,8 +272,26 @@ public class BattleSceneManager : MonoBehaviour
     private void SetUpEnglishDesToEnglishQuizQuestion()
     {
         _battleDataManager.GenerateEnglishWordsList();
-        //Debug.Log(_battleDataManager.WordToGuess.EnglishDescription);
         _battleUIManager.enemyChat.text = "E:" + _battleDataManager.WordToGuess.EnglishDescription;
+        _battleUIManager.playerChat.text = "P:Hmm...";
+
+        List<int> arr = new() { 0, 1, 2, 3 };
+        System.Random random = new System.Random();
+        arr = arr.OrderBy(x => random.Next()).ToList();
+
+        _battleUIManager.answerButtons[arr[0]].text = _battleDataManager.WordToGuess.WordName;
+        arr.RemoveAt(0);
+
+        for (int i = 0; i < arr.Count; i++)
+        {
+            _battleUIManager.answerButtons[arr[i]].text = _battleDataManager.WrongAnswerWordsList[i].WordName;
+        }
+    }
+
+    private void SetUpVietDesToEnglishQuizQuestion()
+    {
+        _battleDataManager.GenerateEnglishWordsList();
+        _battleUIManager.enemyChat.text = "E:" + _battleDataManager.WordToGuess.VietDescription;
         _battleUIManager.playerChat.text = "P:Hmm...";
 
         List<int> arr = new() { 0, 1, 2, 3 };

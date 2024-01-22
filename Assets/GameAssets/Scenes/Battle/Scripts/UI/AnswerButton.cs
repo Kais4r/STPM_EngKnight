@@ -79,7 +79,7 @@ public class AnswerButton : MonoBehaviour
                 // !!! code to write: use unity event to trigger if the False answer is selected, the button with the right answer go green for 0.5 second;
             }
         }
-        else if (_battleSceneManager.gameMode == GameMode.EngLishDescriptionToEnglish)
+        else if (_battleSceneManager.gameMode == GameMode.EngLishDescriptionToEnglish || _battleSceneManager.gameMode == GameMode.VietDescriptionToEnglish)
         {
             string correctEnglishWord = _battleSceneManager._battleDataManager.WordToGuess.WordName;
             // right answer

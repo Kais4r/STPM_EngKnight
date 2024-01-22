@@ -839,7 +839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   battleState: 0
-  gameMode: 2
+  gameMode: 3
   _battleDataManager: {fileID: 962140084}
   _battleUIManager: {fileID: 1318320036}
   _playerAnimator: {fileID: 1468612811}
