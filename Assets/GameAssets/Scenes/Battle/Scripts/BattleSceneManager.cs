@@ -51,17 +51,6 @@ public class BattleSceneManager : MonoBehaviour
 
     private void Awake()
     {
-        Debug.Log(animatorControllers.Count);
-        // CEFR level database
-        /*_gameManagerSingleton = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerSingleton>();
-        if (_gameManagerSingleton != null )
-        {
-            streamingAssetdataPath = Application.streamingAssetsPath + "/Level/" + _gameManagerSingleton.cefrLevel + ".json";
-        }
-        else
-        {
-            streamingAssetdataPath = Application.streamingAssetsPath + "/Level/" + databaseName + ".json";
-        }*/
         streamingAssetdataPath = Application.streamingAssetsPath + "/Level/" + databaseName + ".json";
     }
     private void Update()
