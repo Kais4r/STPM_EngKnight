@@ -33,7 +33,7 @@ public class BattleSceneManager : MonoBehaviour
     public BattleUIManager _battleUIManager;
 
     // Level Info
-    private int remainingEnemiesNumber = 9;
+    private int remainingEnemiesNumber = 3;
     private int[] _range;
 
     // Generate enemy and character
@@ -129,7 +129,7 @@ public class BattleSceneManager : MonoBehaviour
         if (remainingEnemiesNumber == 1)
         {
             // generate the boss
-            character = new("Final boss", 2, 2, 100, 0);
+            character = new("Final boss", 1, 2, 100, 0);
 
         }
         else
@@ -159,7 +159,7 @@ public class BattleSceneManager : MonoBehaviour
     private IEnumerator PlayerAttack()
     {
         _player.AttackCharacter(_enemy);
-        _playerAnimController.Play("Base Layer.PlayerAttack",0,0);
+        _playerAnimController.Play("Base Layer.PlayerAttack",1,0);
         yield return new WaitForSeconds(1f);
         _playerAnimController.Play("Base Layer.Idle", 0, 0);
         _battleUIManager.UpdateCombatInfo();
@@ -191,7 +191,7 @@ public class BattleSceneManager : MonoBehaviour
     {
         battleState = BattleState.CharacterAction;
         _enemy.AttackCharacter(_player);
-        _enemyAnimController.Play("Base Layer.EmemyAttack", 0, 0);
+        _enemyAnimController.Play("Base Layer.EmemyAttack", 1, 0);
         yield return new WaitForSeconds(1f);
         _enemyAnimController.Play("Base Layer.Idle", 0, 0);
         _battleUIManager.UpdateCombatInfo();
@@ -213,19 +213,4 @@ public class BattleSceneManager : MonoBehaviour
             }
         }
     }
-    /*private void EnemyAttack()
-    {
-        _enemy.AttackCharacter(_player);
-        battleState = BattleState.CharacterAction;
-        StartCoroutine(PlayAttackAnimation(_playerAnimController, "Base Layer.PlayerAttack", BattleState.PlayerTurn, 1f));
-        if (_player.HP <= 0)
-        {
-            Debug.Log("Player die");
-        }
-        //Asking back the player
-        if (gameMode == GameMode.EngLishToViet)
-        {
-            Invoke(nameof(SetUpEnglishToVietQuizQuestion), 1f);
-        }
-    }*/
 }

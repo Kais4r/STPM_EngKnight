@@ -107,6 +107,16 @@ public class BattleDataManager : MonoBehaviour
                 }
                 WrongAnswerWordsList = new List<EnglishWord> {  randomWord };
             }
+            else
+            {
+                WrongAnswerWordsList.Clear();
+                while (randomWord == WordToGuess)
+                {
+                    randomIndex = UnityEngine.Random.Range(0, WordsList.Count);
+                    randomWord = WordsList[randomIndex];
+                }
+                WrongAnswerWordsList = new List<EnglishWord> { randomWord };
+            }
             for (int i = WrongAnswerWordsList.Count;i < 3;i++)
             {
                 while (randomWord == WordToGuess || WrongAnswerWordsList.Contains(randomWord))
