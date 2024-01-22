@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public enum BattleState
 {
@@ -42,8 +43,8 @@ public class BattleSceneManager : MonoBehaviour
 
     [SerializeField] private Animator _playerAnimController;
     [SerializeField] private Animator _enemyAnimController;
-    [SerializeField] private Color _playerIamgeColor;
-    [SerializeField] private Color _enemyImageColor;
+    [SerializeField] private Image _playerImage;
+    [SerializeField] private Image _enemyImage;
 
     private void Awake()
     {
@@ -159,7 +160,7 @@ public class BattleSceneManager : MonoBehaviour
     private IEnumerator PlayerAttack()
     {
         _player.AttackCharacter(_enemy);
-        _playerAnimController.Play("Base Layer.PlayerAttack",1,0);
+        _playerAnimController.Play("Base Layer.PlayerAttack",0,0);
         yield return new WaitForSeconds(1f);
         _playerAnimController.Play("Base Layer.Idle", 0, 0);
         _battleUIManager.UpdateCombatInfo();
@@ -191,7 +192,7 @@ public class BattleSceneManager : MonoBehaviour
     {
         battleState = BattleState.CharacterAction;
         _enemy.AttackCharacter(_player);
-        _enemyAnimController.Play("Base Layer.EmemyAttack", 1, 0);
+        _enemyAnimController.Play("Base Layer.EnemyAttack", 0, 0);
         yield return new WaitForSeconds(1f);
         _enemyAnimController.Play("Base Layer.Idle", 0, 0);
         _battleUIManager.UpdateCombatInfo();

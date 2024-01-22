@@ -778,8 +778,8 @@ MonoBehaviour:
   _battleUIManager: {fileID: 1318320036}
   _playerAnimController: {fileID: 1468612811}
   _enemyAnimController: {fileID: 62644699}
-  _playerIamgeColor: {r: 0, g: 0, b: 0, a: 0}
-  _enemyImageColor: {r: 0, g: 0, b: 0, a: 0}
+  _playerImage: {fileID: 1468612809}
+  _enemyImage: {fileID: 62644697}
 --- !u!1 &246659704
 GameObject:
   m_ObjectHideFlags: 0
