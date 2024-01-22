@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 410a7db1e64dc7e4bafe5c00c2711cce
+guid: bf283ba4c80774e4ab80e4b2e3de4cc5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle_KG_2_0
+      name: Knight-Idle-Sheet_0
       rect:
         serializedVersion: 2
-        x: 21
+        x: 19
         y: 0
-        width: 49
-        height: 61
+        width: 33
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0b739919ced19f44ac4a1f1715462a0
-      internalID: 835735036
+      spriteID: 45c007f11750a0240a3d7b4777a9703b
+      internalID: 815841450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_KG_2_1
+      name: Knight-Idle-Sheet_1
       rect:
         serializedVersion: 2
-        x: 121
+        x: 83
         y: 0
-        width: 49
-        height: 62
+        width: 34
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48da3d6f1ac2146429cdd179c43374eb
-      internalID: -1476838677
+      spriteID: fd4207f53656cdd4e9f5b2dabee73e5f
+      internalID: 9149309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_KG_2_2
+      name: Knight-Idle-Sheet_2
       rect:
         serializedVersion: 2
-        x: 221
+        x: 147
         y: 0
-        width: 49
-        height: 61
+        width: 33
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1212678c54fe6d24c95c48e8fbfe4787
-      internalID: -234415493
+      spriteID: 853688fc60e1d5647baab73b79eda296
+      internalID: 1354930314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_KG_2_3
+      name: Knight-Idle-Sheet_3
       rect:
         serializedVersion: 2
-        x: 321
+        x: 211
         y: 0
-        width: 50
-        height: 60
+        width: 32
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62943cca7c0d6d84cb72267bf59f4360
-      internalID: 1495591370
+      spriteID: d78cc7ff5080b224f933995b21ba8dc3
+      internalID: 1732966789
       vertices: []
       indices: 
       edges: []
@@ -209,7 +209,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 2763bccdd77182e45bbcb32fd39ceb4e
+    spriteID: a295b45e5bd59f047b8bd7a7903519a7
     internalID: 0
     vertices: []
     indices: 
@@ -217,10 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle_KG_2_0: 835735036
-      Idle_KG_2_1: -1476838677
-      Idle_KG_2_2: -234415493
-      Idle_KG_2_3: 1495591370
+      Knight-Idle-Sheet_0: 815841450
+      Knight-Idle-Sheet_1: 9149309
+      Knight-Idle-Sheet_2: 1354930314
+      Knight-Idle-Sheet_3: 1732966789
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
