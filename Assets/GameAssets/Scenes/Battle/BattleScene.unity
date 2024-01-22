@@ -237,7 +237,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &120177994
 RectTransform:
   m_ObjectHideFlags: 0
@@ -250,9 +250,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1033560698}
   - {fileID: 1610693745}
   - {fileID: 1815344600}
-  - {fileID: 1033560698}
   m_Father: {fileID: 692618075}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -778,8 +778,6 @@ MonoBehaviour:
   _battleUIManager: {fileID: 1318320036}
   _playerAnimController: {fileID: 1468612811}
   _enemyAnimController: {fileID: 62644699}
-  _playerImage: {fileID: 1468612809}
-  _enemyImage: {fileID: 62644697}
 --- !u!1 &246659704
 GameObject:
   m_ObjectHideFlags: 0
@@ -4253,10 +4251,10 @@ RectTransform:
   - {fileID: 415081688}
   m_Father: {fileID: 120177994}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 2.5020752, y: 417.50928}
-  m_SizeDelta: {x: -228.12, y: -1593.4814}
+  m_SizeDelta: {x: 851.88, y: 326.51855}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1033560699
 MonoBehaviour:

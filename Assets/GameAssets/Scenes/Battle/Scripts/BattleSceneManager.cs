@@ -43,8 +43,6 @@ public class BattleSceneManager : MonoBehaviour
 
     [SerializeField] private Animator _playerAnimController;
     [SerializeField] private Animator _enemyAnimController;
-    [SerializeField] private Image _playerImage;
-    [SerializeField] private Image _enemyImage;
 
     private void Awake()
     {
