@@ -32,7 +32,7 @@ public class BattleSceneManager : MonoBehaviour
     public GameMode gameMode = GameMode.VietToEnglish;
 
     // This is where we pass in level database name
-    private string databaseName = "A1";
+    // private string databaseName = "A1";
     public BattleDataManager _battleDataManager;
     private string streamingAssetdataPath;
 
@@ -54,7 +54,10 @@ public class BattleSceneManager : MonoBehaviour
 
     private void Awake()
     {
-        streamingAssetdataPath = Application.streamingAssetsPath + "/Level/" + databaseName + ".json";
+        _gameManagerSingleton = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerSingleton>();
+        //streamingAssetdataPath = Application.streamingAssetsPath + "/Level/" + databaseName + ".json";
+        streamingAssetdataPath = Application.streamingAssetsPath + "/Level/" + _gameManagerSingleton.cefrLevel + ".json";
+        gameMode = _gameManagerSingleton.gameMode;
     }
     private void Update()
     {
@@ -74,7 +77,7 @@ public class BattleSceneManager : MonoBehaviour
     private IEnumerator SetUpBattle()
     {
         // Set up character
-        _player = new("Khoinoob", 1, 5, 100, 0);
+        _player = new("Player", 1, 5, 100, 0);
         _enemy = GenerateEnemy();
         _battleUIManager.SetUpCharacterInfo();
 

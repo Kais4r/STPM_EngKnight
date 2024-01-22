@@ -2,18 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.UIElements;
 
-public class LevelSelectButton : MonoBehaviour
+public class LoadNoteContent : MonoBehaviour
 {
-    [SerializeField] private GameObject _panel;
     private GameManagerSingleton _gameManagerSingleton;
+    [SerializeField] private TMP_InputField _inputField;
     private void Awake()
     {
         _gameManagerSingleton = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerSingleton>();
-    }
-    public void TurnOnOrOffPanel(string level)
-    {
-        _gameManagerSingleton.cefrLevel = level;
-        _panel.SetActive(true);
+        _inputField.text = _gameManagerSingleton.noteContent;
     }
 }

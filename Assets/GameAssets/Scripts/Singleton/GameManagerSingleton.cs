@@ -6,7 +6,8 @@ public class GameManagerSingleton : MonoBehaviour
 {
     public static GameManagerSingleton instance;
 
-    public List<Character> CharacterList { get; set; }
+    public string noteContent;
+    public Character player;
     public string cefrLevel;
     public GameMode gameMode;
 
