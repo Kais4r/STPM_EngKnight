@@ -61,6 +61,23 @@ public class AnswerButton : MonoBehaviour
                 // !!! code to write: use unity event to trigger if the False answer is selected, the button with the right answer go green for 0.5 second;
             }
         }
+        else if (_battleSceneManager.gameMode == GameMode.VietToEnglish)
+        {
+            string correctEnglishWord = _battleSceneManager._battleDataManager.WordToGuess.WordName;
+            // right answer
+            if (_answerText.text == correctEnglishWord)
+            {
+                StartCoroutine(ShowAnswer(new Color32(77, 255, 0, 255), enemyText, "E:Correct."));
+                return true;
+            }
+            else
+            {
+                StartCoroutine(ShowAnswer(new Color32(255, 105, 105, 255), enemyText, "E:No: " + correctEnglishWord));
+                return false;
+
+                // !!! code to write: use unity event to trigger if the False answer is selected, the button with the right answer go green for 0.5 second;
+            }
+        }
         else
         {
             Debug.LogError("AnswerButton.cs,CheckAnswer(): cant check answer");

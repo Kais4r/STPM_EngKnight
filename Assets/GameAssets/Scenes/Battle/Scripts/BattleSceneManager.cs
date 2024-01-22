@@ -19,7 +19,8 @@ public enum BattleState
 
 public enum GameMode
 {
-    EngLishToViet
+    EngLishToViet,
+    VietToEnglish
 }
 
 public class BattleSceneManager : MonoBehaviour
@@ -86,6 +87,10 @@ public class BattleSceneManager : MonoBehaviour
         if (gameMode == GameMode.EngLishToViet)
         {
             SetUpEnglishToVietQuizQuestion();
+        }
+        else if (gameMode == GameMode.VietToEnglish)
+        {
+            SetUpVietToEnglishQuizQuestion();
         }
         battleState = BattleState.PlayerTurn;
     } 
@@ -235,12 +240,12 @@ public class BattleSceneManager : MonoBehaviour
         System.Random random = new System.Random();
         arr = arr.OrderBy(x => random.Next()).ToList();
 
-        _battleUIManager.answerButtons[arr[0]].text = _battleDataManager.WordToGuess.VietMeaning;
+        _battleUIManager.answerButtons[arr[0]].text = _battleDataManager.WordToGuess.WordName;
         arr.RemoveAt(0);
 
         for (int i = 0; i < arr.Count; i++)
         {
-            _battleUIManager.answerButtons[arr[i]].text = _battleDataManager.WrongAnswerWordsList[i].VietMeaning;
+            _battleUIManager.answerButtons[arr[i]].text = _battleDataManager.WrongAnswerWordsList[i].WordName;
         }
     }
 }
