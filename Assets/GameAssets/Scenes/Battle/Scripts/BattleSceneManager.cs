@@ -38,6 +38,8 @@ public class BattleSceneManager : MonoBehaviour
     // Level Info
     // public int enemiesNumber = 5;
 
+    [SerializeField] private Animator _playerAnimController;
+
     private void Awake()
     {
         streamingAssetdataPath = Application.streamingAssetsPath + "/Level/" + databaseName + ".json";
@@ -48,19 +50,23 @@ public class BattleSceneManager : MonoBehaviour
         {
             //set up database here:
             _battleDataManager.LoadData(streamingAssetdataPath);
+
+            // this will decide who attack first pass from level info, not implement yet
+            battleState = BattleState.DialogRunning;
             _battleUIManager.enemyChat.text = "E:Let fight noob";
 
             StartCoroutine(SetUpBattle());
         }
+        /*if (battleState == BattleState.EnemyTurn)
+        {
+
+        }*/
     }
 
     private IEnumerator SetUpBattle()
     {
-        // this will decide who attack first pass from level info, not implement yet
-        battleState = BattleState.DialogRunning;
-
         // wait for dialog running
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
 
         // Set up question depend of game mode
         if (gameMode == GameMode.EngLishToViet)
@@ -96,20 +102,23 @@ public class BattleSceneManager : MonoBehaviour
         if (result == true)
         {
             Debug.Log("Player attack");
-            StartCoroutine(PlayAnimation(1f));
+            StartCoroutine(PlayAttackAnimation(_playerAnimController, "Base Layer.PlayerAttack", BattleState.EnemyTurn,1f));
             // PlayerAttack()
         }
         else
         {
             Debug.Log("Enemy attack");
-            StartCoroutine(PlayAnimation(1f));
+            StartCoroutine(PlayAttackAnimation(_playerAnimController, "Base Layer.PlayerAttack", BattleState.EnemyTurn, 1f));
             // EnemyAttack()
         }
     }
 
-    private IEnumerator PlayAnimation(float duration)
+    private IEnumerator PlayAttackAnimation(Animator animator, string animation, BattleState battleStateToChange, float duration)
     {
+        animator.Play(animation,0,0);
         yield return new WaitForSeconds(duration);
-        battleState = BattleState.EnemyTurn;
+        // i put this line here because if you put this in ProcessPlauerQuizResult, it won't wait and play instantly
+        animator.Play("Base Layer.Idle", 0, 0);
+        battleState = battleStateToChange;
     }
 }
