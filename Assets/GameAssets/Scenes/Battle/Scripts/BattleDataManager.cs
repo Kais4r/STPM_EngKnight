@@ -61,7 +61,7 @@ public class BattleDataManager : MonoBehaviour
         if (WordsList.Count <= 0)
         {
             _battleSceneManager._battleUIManager.endGamePanel.SetActive(true);
-            _battleSceneManager._battleUIManager.endGameResultText.text = "Defeated, out of words to guess, you wrong too many time";
+            _battleSceneManager._battleUIManager.endGameResultText.text = "Defeated, out of words";
         }
         else
         {

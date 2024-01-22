@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.Mathematics;
+using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -42,13 +44,16 @@ public class BattleSceneManager : MonoBehaviour
     private Character _player;
     private Character _enemy;
 
-    [SerializeField] private Animator _playerAnimController;
-    [SerializeField] private Animator _enemyAnimController;
+    [SerializeField] private Animator _playerAnimator;
+    [SerializeField] private Animator _enemyAnimator;
+
+    [SerializeField] private List<AnimatorController> animatorControllers;
 
     private void Awake()
     {
+        Debug.Log(animatorControllers.Count);
         // CEFR level database
-        _gameManagerSingleton = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerSingleton>();
+        /*_gameManagerSingleton = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerSingleton>();
         if (_gameManagerSingleton != null )
         {
             streamingAssetdataPath = Application.streamingAssetsPath + "/Level/" + _gameManagerSingleton.cefrLevel + ".json";
@@ -56,7 +61,8 @@ public class BattleSceneManager : MonoBehaviour
         else
         {
             streamingAssetdataPath = Application.streamingAssetsPath + "/Level/" + databaseName + ".json";
-        }
+        }*/
+        streamingAssetdataPath = Application.streamingAssetsPath + "/Level/" + databaseName + ".json";
     }
     private void Update()
     {
@@ -137,12 +143,15 @@ public class BattleSceneManager : MonoBehaviour
         Character character;
         if (remainingEnemiesNumber == 1)
         {
+            _enemyAnimator.runtimeAnimatorController = animatorControllers[6];
             // generate the boss
             character = new("Final boss", 1, 2, 100, 0);
 
         }
         else
         {
+            int randomEnemyController = UnityEngine.Random.Range(2, 6);
+            _enemyAnimator.runtimeAnimatorController = animatorControllers[randomEnemyController];
             character = new("Enemy[" + remainingEnemiesNumber + "]", 1, 1, 100, 0);
         }
         return character;
@@ -168,25 +177,27 @@ public class BattleSceneManager : MonoBehaviour
     private IEnumerator PlayerAttack()
     {
         _player.AttackCharacter(_enemy);
-        _playerAnimController.Play("Base Layer.PlayerAttack",0,0);
+        _playerAnimator.Play("Base Layer.PlayerAttack",0,0);
         yield return new WaitForSeconds(1f);
-        _playerAnimController.Play("Base Layer.Idle", 0, 0);
+        _playerAnimator.Play("Base Layer.Idle", 0, 0);
         _battleUIManager.UpdateCombatInfo();
         if (_enemy.HP == 0)
         {
+            _enemyAnimator.Play("Base Layer.Dead", 0, 0);
+            yield return new WaitForSeconds(0.5f);
             remainingEnemiesNumber--;
             if(remainingEnemiesNumber > 0)
             {
                 battleState = BattleState.SpawnNextEnemy;
                 _enemy = GenerateEnemy();
-                yield return new WaitForSeconds(0.75f);
+                yield return new WaitForSeconds(0.5f);
                 _battleUIManager.SetUpCharacterInfo();
                 battleState = BattleState.EnemyTurn;
             }
             else
             {
                 _battleUIManager.endGamePanel.SetActive(true);
-                _battleUIManager.endGameResultText.text = "Victory, you slain all monster!";
+                _battleUIManager.endGameResultText.text = "Victory!";
             }
         }
         else
@@ -200,15 +211,15 @@ public class BattleSceneManager : MonoBehaviour
     {
         battleState = BattleState.CharacterAction;
         _enemy.AttackCharacter(_player);
-        _enemyAnimController.Play("Base Layer.EnemyAttack", 0, 0);
+        _enemyAnimator.Play("Base Layer.EnemyAttack", 0, 0);
         yield return new WaitForSeconds(1f);
-        _enemyAnimController.Play("Base Layer.Idle", 0, 0);
+        _enemyAnimator.Play("Base Layer.Idle", 0, 0);
         _battleUIManager.UpdateCombatInfo();
 
         if (_player.HP <= 0)
         {
             _battleUIManager.endGamePanel.SetActive(true);
-            _battleUIManager.endGameResultText.text = "Defeated, The monster are scary";
+            _battleUIManager.endGameResultText.text = "Defeated";
         }
         else
         {

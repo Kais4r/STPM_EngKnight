@@ -878,8 +878,16 @@ MonoBehaviour:
   gameMode: 0
   _battleDataManager: {fileID: 962140084}
   _battleUIManager: {fileID: 1318320036}
-  _playerAnimController: {fileID: 1468612811}
-  _enemyAnimController: {fileID: 62644699}
+  _playerAnimator: {fileID: 1468612811}
+  _enemyAnimator: {fileID: 62644699}
+  animatorControllers:
+  - {fileID: 9100000, guid: f3718640b15f2784a9e216c9ca455bad, type: 2}
+  - {fileID: 9100000, guid: 08a073611b14ebc4f854116da02b25e7, type: 2}
+  - {fileID: 9100000, guid: 2587f4a1bfbc19c4c929d6d3182aba45, type: 2}
+  - {fileID: 9100000, guid: b8293ffa3e2ef3344b586209693b03dc, type: 2}
+  - {fileID: 9100000, guid: 35257691d4e88a242be52382832cf039, type: 2}
+  - {fileID: 9100000, guid: e0d6106902ce93447af60fd894c1b440, type: 2}
+  - {fileID: 9100000, guid: 8462e6b82ed13fd47b4b6778279ee685, type: 2}
 --- !u!1 &246659704
 GameObject:
   m_ObjectHideFlags: 0
