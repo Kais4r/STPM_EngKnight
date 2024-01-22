@@ -6,7 +6,6 @@ using UnityEngine;
 public class LevelSelectButton : MonoBehaviour
 {
     [SerializeField] private GameObject _panel;
-    [SerializeField] private TextMeshProUGUI _textMeshProUGUI;
 
     private bool _buttonState = false;
     private GameManagerSingleton _gameManagerSingleton;
@@ -14,9 +13,9 @@ public class LevelSelectButton : MonoBehaviour
     {
         _gameManagerSingleton = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerSingleton>();
     }
-    public void TurnOnOrOffPanel()
+    public void TurnOnOrOffPanel(string level)
     {
-        _gameManagerSingleton.cefrLevel = _textMeshProUGUI.text;
+        _gameManagerSingleton.cefrLevel = level;
 
         if (_buttonState == false)
         {

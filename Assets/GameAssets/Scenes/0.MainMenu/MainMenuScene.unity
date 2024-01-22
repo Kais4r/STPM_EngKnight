@@ -1002,8 +1002,8 @@ GameObject:
   - component: {fileID: 650350325}
   - component: {fileID: 650350326}
   m_Layer: 0
-  m_Name: GlobalData
-  m_TagString: Untagged
+  m_Name: GameManager
+  m_TagString: GameManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1036,6 +1036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cefrLevel: 
+  gameMode: 0
 --- !u!1 &795907636
 GameObject:
   m_ObjectHideFlags: 0

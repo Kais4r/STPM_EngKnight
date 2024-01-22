@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/GameAssets/Scenes/GameHall/GameHall.unity
     guid: d78b82c6c44901840982ef33a4a37d81
   - enabled: 1
+    path: Assets/GameAssets/Scenes/LevelSelection/LevelSelection.unity
+    guid: 0f8709c83fec11747a1362a9ce64fc1a
+  - enabled: 1
     path: Assets/GameAssets/Scenes/Battle/BattleScene.unity
     guid: 8c0a5d085eaa3c5408c369af022f555a
   m_configObjects:
