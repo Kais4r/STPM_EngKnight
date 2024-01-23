@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public enum BattleState
 {
@@ -24,6 +25,9 @@ public enum GameMode
 
 public class BattleSceneManager : MonoBehaviour
 {
+    [SerializeField] private Image backGroundImage;
+    public List<Sprite> backGroundList;
+
     private GameManagerSingleton _gameManagerSingleton;
     public BattleState battleState = BattleState.BattleStart;
     public GameMode gameMode = GameMode.VietToEnglish;
@@ -53,6 +57,20 @@ public class BattleSceneManager : MonoBehaviour
     private void Awake()
     {
         _gameManagerSingleton = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerSingleton>();
+
+        if (_gameManagerSingleton.cefrLevel == "A1" || _gameManagerSingleton.cefrLevel == "A2")
+        {
+            backGroundImage.GetComponent<Image>().sprite = backGroundList[0];
+        }
+        else if (_gameManagerSingleton.cefrLevel == "B1" || _gameManagerSingleton.cefrLevel == "B2")
+        {
+            backGroundImage.GetComponent<Image>().sprite = backGroundList[1];
+        }
+        else
+        {
+            backGroundImage.GetComponent<Image>().sprite = backGroundList[2];
+        }
+
         //streamingAssetdataPath = Application.streamingAssetsPath + "/Level/" + databaseName + ".json";
         streamingAssetdataPath = Application.streamingAssetsPath + "/Level/" + _gameManagerSingleton.cefrLevel + ".json";
         gameMode = _gameManagerSingleton.gameMode;

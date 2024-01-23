@@ -1289,6 +1289,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acc070bdb4cc3d7439066e9e3bb8f3a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backGroundImage: {fileID: 1125535382}
+  backGroundList:
+  - {fileID: 21300000, guid: 80d2e1d44b76fc54d9015dec9869da19, type: 3}
+  - {fileID: 21300000, guid: 512c27da8fd02c342a83ae5ced8da430, type: 3}
+  - {fileID: 21300000, guid: cec4129aab5960641ac22b6b5d97ff8f, type: 3}
   battleState: 0
   gameMode: 3
   _battleDataManager: {fileID: 962140084}
