@@ -21,7 +21,7 @@ public class ShowGeneratedWordList : MonoBehaviour
             GameObject item = Instantiate(englishWordPanelPrefab);
             item.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = englishWord.WordName;
             item.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = englishWord.VietMeaning;
-            //item.GetComponent<LoadHyperLinkForWordListPanel>().url = englishWord.TranslationSource
+            item.GetComponent<LoadHyperLinkForWordListPanel>().url = englishWord.TranslationSource;
             item.transform.SetParent(scrollViewContent);
             item.transform.localScale = Vector2.one;
         }
