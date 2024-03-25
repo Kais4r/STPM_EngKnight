@@ -266,7 +266,7 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: D:/Downloads/user.keystore
+  AndroidKeystoreName: '{dedicated}: Downloads/user.keystore'
   AndroidKeyaliasName: engknight
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
